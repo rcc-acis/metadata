@@ -6,8 +6,8 @@
 5|awdn|High Plains Hourly Weather Net||16|20000126|sorensen|
 6|hcn|Historical Climate Network||2|20000423|bnoon|
 7|scan|Soil Climate Analysis Network||17|20000503|jblum|
-8|FAWN|Florida Automated Weather Network||18|20000517|jblume|
-9|nrcc|NRCC Local Data||2|20010220|bnoon|
+8|fawn|Florida Automated Weather Network||18|20000517|jblume|
+9|nrcc|NRCC Local Data||8|20040726|bnoon|
 10|snotel|SNOTEL network|NRCS SNOpack TELemetry|19|20010510|gmccurdy|
 11|raws|RAWS network|Remote Automated Weather Station - NIFC|20|20010510|gmccurdy|
 12|cemp|CEMP DOE/NTS Nevada|Community Environmental Monitoring Program - Nevada Test Site|20|20010510|gmccurdy|

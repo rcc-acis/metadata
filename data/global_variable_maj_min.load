@@ -9,6 +9,7 @@
 1|10|Maximum Temperature|max|daily|daily|DegF|td3206:TMAX|
 1|11|Maximum Temperature|max|daily|daily|DegF|srcc:TX|
 1|12|Maximum Temperature|max|daily|daily|DegF|madis|
+1|13|Maximum Temperature|max|daily|daily|DegF|cli:TX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -20,6 +21,7 @@
 2|10|Minimum Temperature|min|daily|daily|DegF|td3206:TMIN|
 2|11|Minimum Temperature|min|daily|daily|DegF|srcc:TN|
 2|12|Minimum Temperature|min|daily|daily|DegF|madis|
+2|13|Minimum Temperature|min|daily|daily|DegF|cli:TN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -39,6 +41,7 @@
 4|9|Precipitation|sum|daily|daily|Inch|td3206:PRCP|
 4|10|Precipitation|sum|daily|daily|Inch|srcc:PP|
 4|11|Precipitation|sum|daily|daily|Inch|madis|
+4|12|Precipitation|sum|daily|daily|Inch|cli:PP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
@@ -58,6 +61,7 @@
 10|8|Snowfall|sum|daily|daily|Inch|dsm:SNOW_24HR|
 10|9|Snowfall|sum|daily|daily|Inch|td3206:SNOW|
 10|10|Snowfall|sum|daily|daily|Inch|srcc:SF|
+10|11|Snowfall|sum|daily|daily|Inch|cli:SF|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
@@ -65,9 +69,11 @@
 11|7|Snow Depth at obs time|inst|inst|daily|Inch|dsm:SNWD|
 11|8|Snow Depth at obs time|inst|inst|daily|Inch|td3206:SNWD|
 11|9|Snow Depth at obs time|inst|inst|daily|Inch|srcc:SD|
+11|10|Snow Depth at obs time|inst|inst|daily|Inch|cli:SD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|
+12|4|Avg Wind Speed|ave|daily|daily|mph|cli:AWND|
 13|1|Water Equivalent of snow depth|inst|inst|daily|Inch|td3200:WTEQ|
 13|2|Water Equivalent of snow depth|inst|inst|daily|Inch|td3206:WTEQ|
 13|4|Water Equivalent of snow depth|inst|inst|daily|Inch|shef:SW|
@@ -164,13 +170,17 @@
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|
 70|2|Total Rad Horizontal Surface|sum|daily|daily|MJ/m2|awdn|
 71|1|Avg Relative Humidity|ave|daily|daily|percent|awdn|
+72|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
 72|1|Evapotranspiration NE|sum|daily|daily|inch|awdn|
 73|1|Max Relative Humidity|max|daily|daily|percent|awdn|
+73|2|Max Relative Humidity|max|daily|daily|percent|cli:MXRH|
 74|1|Min Relative Humidity|min|daily|daily|percent|awdn|
+74|2|Min Relative Humidity|min|daily|daily|percent|cli:MNRH|
 75|1|Leaf Wetness Percent of Day||daily|daily|percent|awdn|
 76|1|Max Wind Speed  1 Min 3 meter|max|1 minute|daily|m/s|awdn|
 76|2|Max Wind Speed  1 Min 10 meter|max|1 minute|daily|m/s|awdn|
 77|1|Max Wind Gust 5 Sec 3 meter|max|5 second|daily|m/s|awdn|
+77|2|peak wind speed 5 Sec 10 meter|max|5 second|daily|mph|cli:PKWS|
 78|1|Avg Wind Vector Dir 3 meter|ave|daily|daily|deg|awdn|
 78|2|Avg Wind Vector Dir 3 meter|ave|daily|daily|deg|td3206:PWND|
 79|1|Wind Vector Std Dev 3 meter||daily|daily|deg|awdn|
@@ -198,3 +208,4 @@
 99|1|Wind gust|inst|hrly|sub-hrly|knots|madis|
 100|1|Wind gust direction|inst|inst|sub-hrly|degrees|madis|
 101|1|precipitation|sum|hrly|sub-hrly|Inch |madis|
+102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|

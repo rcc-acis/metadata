@@ -6,7 +6,8 @@
 1|7|Max Air Temp at 15ft|max|daily|daily|degC|awdn|
 1|8|Maximum Temperature|max|daily|daily|DegF|nrcc:TX|
 1|9|Maximum Temperature|max|daily|daily|DegF|dsm:TMAX_24HR|
-1|10|Maximum Temperature|max|daily|daily|DegF|srcc:TX|
+1|10|Maximum Temperature|max|daily|daily|DegF|td3206:TMAX|
+1|11|Maximum Temperature|max|daily|daily|DegF|srcc:TX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -15,10 +16,11 @@
 2|7|Min Air Temp at 15ft|min|daily|daily|degC|awdn|
 2|8|Minimum Temperature|min|daily|daily|DegF|nrcc:TN|
 2|9|Minimum Temperature|min|daily|daily|DegF|dsm:TMIN_24HR|
-2|10|Minimum Temperature|min|daily|daily|DegF|srcc:TN|
+2|10|Minimum Temperature|min|daily|daily|DegF|td3206:TMIN|
+2|11|Minimum Temperature|min|daily|daily|DegF|srcc:TN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
-3|10|Temperature at obs time|inst|inst|daily|DegF|srcc:TA|
+3|11|Temperature at obs time|inst|inst|daily|DegF|srcc:TA|
 4|1|Precipitation|sum|daily|daily|Inch|td3200:PRCP|
 4|2|Precipitation|sum|daily|daily|Inch|td3240|
 4|3|Precipitation|sum|daily|daily|Inch|metar|
@@ -27,7 +29,8 @@
 4|6|Precipitation|sum|daily|daily|Inch|awdn|
 4|7|Precipitation|sum|daily|daily|Inch|nrcc:PP|
 4|8|Precipitation|sum|daily|daily|Inch|dsm:PRCP_24HR|
-4|9|Precipitation|sum|daily|daily|Inch|srcc:PP|
+4|9|Precipitation|sum|daily|daily|Inch|td3206:PRCP|
+4|10|Precipitation|sum|daily|daily|Inch|srcc:PP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 6|1|Weather|sum|daily|daily||td3200:DYSW|
@@ -40,13 +43,13 @@
 10|6|Snowfall|sum|daily|daily|mm|awdn|
 10|7|Snowfall|sum|daily|daily|Inch|nrcc:SF|
 10|8|Snowfall|sum|daily|daily|Inch|dsm:SNOW_24HR|
-10|9|Snowfall|sum|daily|daily|Inch|srcc:SF|
+10|10|Snowfall|sum|daily|daily|Inch|srcc:SF|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
 11|6|Snow Depth at obs time|inst|inst|daily|Inch|nrcc:SD|
 11|7|Snow Depth at obs time|inst|inst|daily|Inch|dsm:SNWD|
-11|8|Snow Depth at obs time|inst|inst|daily|Inch|srcc:SD|
+11|9|Snow Depth at obs time|inst|inst|daily|Inch|srcc:SD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 13|1|Water Equivalent of snow depth|inst|inst|daily|Inch|td3200:WTEQ|

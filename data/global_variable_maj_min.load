@@ -153,3 +153,4 @@
 84|1|Accumulated Hours Over 4c/40F|sum|daily|daily|hour|awdn|
 85|3|Wind gust|inst|hrly|hrly|knots|metar|
 86|1|Average Temperature|ave|weekly|weekly|DegF|cpc|
+87|0|Daily sum of Day Range|sum|daily|daily||derived|

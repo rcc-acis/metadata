@@ -1,0 +1,73 @@
+1|245|US|01|01|AL|Alabama|07-19-2000|Robbins|
+2|245|US|02|50|AK|Alaska|07-19-2000|Robbins|
+3|245|US|04|02|AZ|Arizona|07-19-2000|Robbins|
+4|245|US|05|03|AR|Arkansas|07-19-2000|Robbins|
+5|245|US|06|04|CA|California|07-19-2000|Robbins|
+6|245|US|08|05|CO|Colorado|07-19-2000|Robbins|
+7|245|US|09|06|CT|Connecticut|07-19-2000|Robbins|
+8|245|US|10|07|DE|Delaware|07-19-2000|Robbins|
+9|245|US|12|08|FL|Florida|07-19-2000|Robbins|
+10|245|US|13|09|GA|Georgia|07-19-2000|Robbins|
+11|245|US|15|51|HI|Hawaii|07-19-2000|Robbins|
+12|245|US|16|10|ID|Idaho|07-19-2000|Robbins|
+13|245|US|17|11|IL|Illinois|07-19-2000|Robbins|
+14|245|US|18|12|IN|Indiana|07-19-2000|Robbins|
+15|245|US|19|13|IA|Iowa|07-19-2000|Robbins|
+16|245|US|20|14|KS|Kansas|07-19-2000|Robbins|
+17|245|US|21|15|KY|Kentucky|07-19-2000|Robbins|
+18|245|US|22|16|LA|Louisiana|07-19-2000|Robbins|
+19|245|US|23|17|ME|Maine|07-19-2000|Robbins|
+20|245|US|24|18|MD|Maryland|07-19-2000|Robbins|
+21|245|US|25|19|MA|Massachusetts|07-19-2000|Robbins|
+22|245|US|26|20|MI|Michigan|07-19-2000|Robbins|
+23|245|US|27|21|MN|Minnesota|07-19-2000|Robbins|
+24|245|US|28|22|MS|Mississippi|07-19-2000|Robbins|
+25|245|US|29|23|MO|Missouri|07-19-2000|Robbins|
+26|245|US|30|24|MT|Montana|07-19-2000|Robbins|
+27|245|US|31|25|NE|Nebraska|07-19-2000|Robbins|
+28|245|US|32|26|NV|Nevada|07-19-2000|Robbins|
+29|245|US|33|27|NH|New Hampshire|07-19-2000|Robbins|
+30|245|US|34|28|NJ|New Jersey|07-19-2000|Robbins|
+31|245|US|35|29|NM|New Mexico|07-19-2000|Robbins|
+32|245|US|36|30|NY|New York|07-19-2000|Robbins|
+33|245|US|37|31|NC|North Carolina|07-19-2000|Robbins|
+34|245|US|38|32|ND|North Dakota|07-19-2000|Robbins|
+35|245|US|39|33|OH|Ohio|07-19-2000|Robbins|
+36|245|US|40|34|OK|Oklahoma|07-19-2000|Robbins|
+37|245|US|41|35|OR|Oregon|07-19-2000|Robbins|
+38|245|US|42|36|PA|Pennsylvania|07-19-2000|Robbins|
+39|245|US|44|37|RI|Rhode Island|07-19-2000|Robbins|
+40|245|US|45|38|SC|South Carolina|07-19-2000|Robbins|
+41|245|US|46|39|SD|South Dakota|07-19-2000|Robbins|
+42|245|US|47|40|TN|Tennessee|07-19-2000|Robbins|
+43|245|US|48|41|TX|Texas|07-19-2000|Robbins|
+44|245|US|49|42|UT|Utah|07-19-2000|Robbins|
+45|245|US|50|43|VT|Vermont|07-19-2000|Robbins|
+46|245|US|51|44|VA|Virginia|07-19-2000|Robbins|
+47|245|US|53|45|WA|Washington|07-19-2000|Robbins|
+48|245|US|54|46|WV|West Virginia|07-19-2000|Robbins|
+49|245|US|55|47|WI|Wisconsin|07-19-2000|Robbins|
+50|245|US|56|48|WY|Wyoming|07-19-2000|Robbins|
+51|4|AQ|60|91|AS|American Samoa|07-19-2000|Robbins|
+52|97|GQ|66|91|GU|Guam|07-19-2000|Robbins|
+53|235|PS|70|91|PW|Palau|07-19-2000|Robbins|
+54|151|RM|68|91|MH|Marshall Islands|07-19-2000|Robbins|
+55|43|CA|-1|??|AB|Alberta|07-19-2000|Robbins|
+56|43|CA|-1|??|BC|British Columbia|07-19-2000|Robbins|
+57|43|CA|-1|??|MB|Manitoba|07-19-2000|Robbins|
+58|43|CA|-1|??|NB|New Brunswick|07-19-2000|Robbins|
+59|43|CA|-1|??|NF|Newfoundland|07-19-2000|Robbins|
+60|43|CA|-1|??|NS|Nova Scotia|07-19-2000|Robbins|
+61|43|CA|-1|??|NW|Northwest Territories|07-19-2000|Robbins|
+62|43|CA|-1|??|ON|Ontario|07-19-2000|Robbins|
+63|43|CA|-1|??|PE|Prince Edward Island|07-19-2000|Robbins|
+64|43|CA|-1|??|PQ|Quebec|07-19-2000|Robbins|
+65|192|RQ|72|66|PR|Puerto Rico|07-19-2000|Robbins|
+66|43|CA|-1|??|SK|Saskatchewan|07-19-2000|Robbins|
+67|252|VQ|78|67|VI|U. S. Virgin Islands|07-19-2000|Robbins|
+68|43|CA|-1|??|YK|Yukon Territory|07-19-2000|Robbins|
+69|245|US|11|??|DC|District of Columbia|07-19-2000|Robbins|
+70|78|FM|64|91|FM|Federated States of Micronesia|07-19-2000|Robbins|
+71|178|CQ|69|91|MP|Northern Mariana Islands|07-19-2000|Robbins|
+72|245|US|74|91|UM|U. S. Minor Islands|07-19-2000|Robbins|
+0|0|??|-1|??|??|Unknown|07-19-2000|Robbins|

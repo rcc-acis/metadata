@@ -1,0 +1,361 @@
+1|01|01|AL|01|Northern Valley|07-17-2000|Robbins|
+2|02|01|AL|01|Appalachian Mountain|07-17-2000|Robbins|
+3|03|01|AL|01|Upper Plains|07-17-2000|Robbins|
+4|04|01|AL|01|Eastern Valley|07-17-2000|Robbins|
+5|05|01|AL|01|Piedmont Plateau|07-17-2000|Robbins|
+6|06|01|AL|01|Prairie|07-17-2000|Robbins|
+7|07|01|AL|01|Coastal Plain|07-17-2000|Robbins|
+8|08|01|AL|01|Gulf|07-17-2000|Robbins|
+9|01|04|AZ|02|Northwest|07-17-2000|Robbins|
+10|02|04|AZ|02|Northeast|07-17-2000|Robbins|
+11|03|04|AZ|02|North Central|07-17-2000|Robbins|
+12|04|04|AZ|02|East Central|07-17-2000|Robbins|
+13|05|04|AZ|02|Southwest|07-17-2000|Robbins|
+14|06|04|AZ|02|South Central|07-17-2000|Robbins|
+15|07|04|AZ|02|Southeast|07-17-2000|Robbins|
+16|01|05|AR|03|Northwest|07-17-2000|Robbins|
+17|02|05|AR|03|North Central|07-17-2000|Robbins|
+18|03|05|AR|03|Northeast|07-17-2000|Robbins|
+19|04|05|AR|03|West Central|07-17-2000|Robbins|
+20|05|05|AR|03|Central|07-17-2000|Robbins|
+21|06|05|AR|03|East Central|07-17-2000|Robbins|
+22|07|05|AR|03|Southwest|07-17-2000|Robbins|
+23|08|05|AR|03|South Central|07-17-2000|Robbins|
+24|09|05|AR|03|Southeast|07-17-2000|Robbins|
+25|01|06|CA|04|North Coast Drainage|07-17-2000|Robbins|
+26|02|06|CA|04|Sacramento Drainage|07-17-2000|Robbins|
+27|03|06|CA|04|Northeast Interior Basins|07-17-2000|Robbins|
+28|04|06|CA|04|Central Coast Drainage|07-17-2000|Robbins|
+29|05|06|CA|04|San Joaquin Drainage|07-17-2000|Robbins|
+30|06|06|CA|04|South Coast Drainage|07-17-2000|Robbins|
+31|07|06|CA|04|Southeast Desert Basins|07-17-2000|Robbins|
+32|01|08|CO|05|AR Drainage Basin|07-17-2000|Robbins|
+33|02|08|CO|05|CO Drainage Basin|07-17-2000|Robbins|
+34|03|08|CO|05|KS Drainage Basin|07-17-2000|Robbins|
+35|04|08|CO|05|Platte Drainage Basin|07-17-2000|Robbins|
+36|05|08|CO|05|Rio Grande Drainage Basin|07-17-2000|Robbins|
+37|01|09|CT|06|Northwest|07-17-2000|Robbins|
+38|02|09|CT|06|Central|07-17-2000|Robbins|
+39|03|09|CT|06|Coastal|07-17-2000|Robbins|
+40|01|10|DE|07|Northern|07-17-2000|Robbins|
+41|02|10|DE|07|Southern|07-17-2000|Robbins|
+42|01|12|FL|08|Northwest|07-17-2000|Robbins|
+43|02|12|FL|08|North|07-17-2000|Robbins|
+44|03|12|FL|08|North Central|07-17-2000|Robbins|
+45|04|12|FL|08|South Central|07-17-2000|Robbins|
+46|05|12|FL|08|Everglades & SW Coast|07-17-2000|Robbins|
+47|06|12|FL|08|Lower East Coast|07-17-2000|Robbins|
+48|07|12|FL|08|Keys|07-17-2000|Robbins|
+49|01|13|GA|09|Northwest|07-17-2000|Robbins|
+50|02|13|GA|09|North Central|07-17-2000|Robbins|
+51|03|13|GA|09|Northeast|07-17-2000|Robbins|
+52|04|13|GA|09|West Central|07-17-2000|Robbins|
+53|05|13|GA|09|Central|07-17-2000|Robbins|
+54|06|13|GA|09|East Central|07-17-2000|Robbins|
+55|07|13|GA|09|Southwest|07-17-2000|Robbins|
+56|08|13|GA|09|South Central|07-17-2000|Robbins|
+57|09|13|GA|09|Southeast|07-17-2000|Robbins|
+58|01|16|ID|10|Panhandle|07-17-2000|Robbins|
+59|02|16|ID|10|North Central Prairies|07-17-2000|Robbins|
+60|03|16|ID|10|North Central Canyons|07-17-2000|Robbins|
+61|04|16|ID|10|Central Mountains|07-17-2000|Robbins|
+62|05|16|ID|10|Southwestern Valleys|07-17-2000|Robbins|
+63|06|16|ID|10|Southwestern Highlands|07-17-2000|Robbins|
+64|07|16|ID|10|Central Plains|07-17-2000|Robbins|
+65|08|16|ID|10|Northeastern Valleys|07-17-2000|Robbins|
+66|09|16|ID|10|Upper Snake River Plains|07-17-2000|Robbins|
+67|10|16|ID|10|Eastern Highlands|07-17-2000|Robbins|
+68|01|17|IL|11|Northwest|07-17-2000|Robbins|
+69|02|17|IL|11|Northeast|07-17-2000|Robbins|
+70|03|17|IL|11|West|07-17-2000|Robbins|
+71|04|17|IL|11|Central|07-17-2000|Robbins|
+72|05|17|IL|11|East|07-17-2000|Robbins|
+73|06|17|IL|11|West Southwest|07-17-2000|Robbins|
+74|07|17|IL|11|East Southeast|07-17-2000|Robbins|
+75|08|17|IL|11|Southwest|07-17-2000|Robbins|
+76|09|17|IL|11|Southeast|07-17-2000|Robbins|
+77|01|18|IN|12|Northwest|07-17-2000|Robbins|
+78|02|18|IN|12|North Central|07-17-2000|Robbins|
+79|03|18|IN|12|Northeast|07-17-2000|Robbins|
+80|04|18|IN|12|West Central|07-17-2000|Robbins|
+81|05|18|IN|12|Central|07-17-2000|Robbins|
+82|06|18|IN|12|East Central|07-17-2000|Robbins|
+83|07|18|IN|12|Southwest|07-17-2000|Robbins|
+84|08|18|IN|12|South Central|07-17-2000|Robbins|
+85|09|18|IN|12|Southeast|07-17-2000|Robbins|
+86|01|19|IA|13|Northwest|07-17-2000|Robbins|
+87|02|19|IA|13|North Central|07-17-2000|Robbins|
+88|03|19|IA|13|Northeast|07-17-2000|Robbins|
+89|04|19|IA|13|West Central|07-17-2000|Robbins|
+90|05|19|IA|13|Central|07-17-2000|Robbins|
+91|06|19|IA|13|East Central|07-17-2000|Robbins|
+92|07|19|IA|13|Southwest|07-17-2000|Robbins|
+93|08|19|IA|13|South Central|07-17-2000|Robbins|
+94|09|19|IA|13|Southeast|07-17-2000|Robbins|
+95|01|20|KS|14|Northwest|07-17-2000|Robbins|
+96|02|20|KS|14|North Central|07-17-2000|Robbins|
+97|03|20|KS|14|Northeast|07-17-2000|Robbins|
+98|04|20|KS|14|West Central|07-17-2000|Robbins|
+99|05|20|KS|14|Central|07-17-2000|Robbins|
+100|06|20|KS|14|East Central|07-17-2000|Robbins|
+101|07|20|KS|14|Southwest|07-17-2000|Robbins|
+102|08|20|KS|14|South Central|07-17-2000|Robbins|
+103|09|20|KS|14|Southeast|07-17-2000|Robbins|
+104|01|21|KY|15|Western|07-17-2000|Robbins|
+105|02|21|KY|15|Central|07-17-2000|Robbins|
+106|03|21|KY|15|Blue Grass|07-17-2000|Robbins|
+107|04|21|KY|15|Eastern|07-17-2000|Robbins|
+108|01|22|LA|16|Northwest|07-17-2000|Robbins|
+109|02|22|LA|16|North Central|07-17-2000|Robbins|
+110|03|22|LA|16|Northeast|07-17-2000|Robbins|
+111|04|22|LA|16|West Central|07-17-2000|Robbins|
+112|05|22|LA|16|Central|07-17-2000|Robbins|
+113|06|22|LA|16|East Central|07-17-2000|Robbins|
+114|07|22|LA|16|Southwest|07-17-2000|Robbins|
+115|08|22|LA|16|South Central|07-17-2000|Robbins|
+116|09|22|LA|16|Southeast|07-17-2000|Robbins|
+117|01|23|ME|17|Northern|07-17-2000|Robbins|
+118|02|23|ME|17|Southern Interior|07-17-2000|Robbins|
+119|03|23|ME|17|Coastal|07-17-2000|Robbins|
+120|01|24|MD|18|Southeastern Shore|07-17-2000|Robbins|
+121|02|24|MD|18|Central Eastern Shore|07-17-2000|Robbins|
+122|03|24|MD|18|Lower Southern|07-17-2000|Robbins|
+123|04|24|MD|18|Upper Southern|07-17-2000|Robbins|
+124|05|24|MD|18|Northeastern Shore|07-17-2000|Robbins|
+125|06|24|MD|18|Northern Central|07-17-2000|Robbins|
+126|07|24|MD|18|Appalachian Mountain|07-17-2000|Robbins|
+127|08|24|MD|18|Allegheny Plateau|07-17-2000|Robbins|
+128|01|25|MA|19|Western|07-17-2000|Robbins|
+129|02|25|MA|19|Central|07-17-2000|Robbins|
+130|03|25|MA|19|Coastal|07-17-2000|Robbins|
+131|01|26|MI|20|West Upper|07-17-2000|Robbins|
+132|02|26|MI|20|East Upper|07-17-2000|Robbins|
+133|03|26|MI|20|Northwest Lower|07-17-2000|Robbins|
+134|04|26|MI|20|Northeast Lower|07-17-2000|Robbins|
+135|05|26|MI|20|West Central Lower|07-17-2000|Robbins|
+136|06|26|MI|20|Central Lower|07-17-2000|Robbins|
+137|07|26|MI|20|East Central Lower|07-17-2000|Robbins|
+138|08|26|MI|20|Southwest Lower|07-17-2000|Robbins|
+139|09|26|MI|20|South Central Lower|07-17-2000|Robbins|
+140|10|26|MI|20|Southeast Lower|07-17-2000|Robbins|
+141|01|27|MN|21|Northwest|07-17-2000|Robbins|
+142|02|27|MN|21|North Central|07-17-2000|Robbins|
+143|03|27|MN|21|Northeast|07-17-2000|Robbins|
+144|04|27|MN|21|West Central|07-17-2000|Robbins|
+145|05|27|MN|21|Central|07-17-2000|Robbins|
+146|06|27|MN|21|East Central|07-17-2000|Robbins|
+147|07|27|MN|21|Southwest|07-17-2000|Robbins|
+148|08|27|MN|21|South Central|07-17-2000|Robbins|
+149|09|27|MN|21|Southeast|07-17-2000|Robbins|
+150|01|28|MS|22|Upper Delta|07-17-2000|Robbins|
+151|02|28|MS|22|North Central|07-17-2000|Robbins|
+152|03|28|MS|22|Northeast|07-17-2000|Robbins|
+153|04|28|MS|22|Lower Delta|07-17-2000|Robbins|
+154|05|28|MS|22|Central|07-17-2000|Robbins|
+155|06|28|MS|22|East Central|07-17-2000|Robbins|
+156|07|28|MS|22|Southwest|07-17-2000|Robbins|
+157|08|28|MS|22|South Central|07-17-2000|Robbins|
+158|09|28|MS|22|Southeast|07-17-2000|Robbins|
+159|10|28|MS|22|Coastal|07-17-2000|Robbins|
+160|01|29|MO|23|Northwest Prairie|07-17-2000|Robbins|
+161|02|29|MO|23|Northeast Prairie|07-17-2000|Robbins|
+162|03|29|MO|23|West Central Plains|07-17-2000|Robbins|
+163|04|29|MO|23|West Ozarks|07-17-2000|Robbins|
+164|05|29|MO|23|East Ozarks|07-17-2000|Robbins|
+165|06|29|MO|23|Bootheel|07-17-2000|Robbins|
+166|01|30|MT|24|Western|07-17-2000|Robbins|
+167|02|30|MT|24|Southwestern|07-17-2000|Robbins|
+168|03|30|MT|24|North Central|07-17-2000|Robbins|
+169|04|30|MT|24|Central|07-17-2000|Robbins|
+170|05|30|MT|24|South Central|07-17-2000|Robbins|
+171|06|30|MT|24|Northeastern|07-17-2000|Robbins|
+172|07|30|MT|24|Southeastern|07-17-2000|Robbins|
+173|01|31|NE|25|Panhandle|07-17-2000|Robbins|
+174|02|31|NE|25|North Central|07-17-2000|Robbins|
+175|03|31|NE|25|Northeast|07-17-2000|Robbins|
+176|05|31|NE|25|Central|07-17-2000|Robbins|
+177|06|31|NE|25|East Central|07-17-2000|Robbins|
+178|07|31|NE|25|Southwest|07-17-2000|Robbins|
+179|08|31|NE|25|South Central|07-17-2000|Robbins|
+180|09|31|NE|25|Southeast|07-17-2000|Robbins|
+181|01|32|NV|26|Northwestern|07-17-2000|Robbins|
+182|02|32|NV|26|Northeastern|07-17-2000|Robbins|
+183|03|32|NV|26|South Central|07-17-2000|Robbins|
+184|04|32|NV|26|Extreme Southern|07-17-2000|Robbins|
+185|01|33|NH|27|Northern|07-17-2000|Robbins|
+186|02|33|NH|27|Southern|07-17-2000|Robbins|
+187|01|34|NJ|28|Northern|07-17-2000|Robbins|
+188|02|34|NJ|28|Southern|07-17-2000|Robbins|
+189|03|34|NJ|28|Coastal|07-17-2000|Robbins|
+190|01|35|NM|29|Northwestern Plateau|07-17-2000|Robbins|
+191|02|35|NM|29|Northern Mountains|07-17-2000|Robbins|
+192|03|35|NM|29|Northeastern Plains|07-17-2000|Robbins|
+193|04|35|NM|29|Southwestern Mountains|07-17-2000|Robbins|
+194|05|35|NM|29|Central Valley|07-17-2000|Robbins|
+195|06|35|NM|29|Central Highlands|07-17-2000|Robbins|
+196|07|35|NM|29|Southeastern Plains|07-17-2000|Robbins|
+197|08|35|NM|29|Southern Desert|07-17-2000|Robbins|
+198|01|36|NY|30|Western Plateau|07-17-2000|Robbins|
+199|02|36|NY|30|Eastern Plateau|07-17-2000|Robbins|
+200|03|36|NY|30|Northern Plateau|07-17-2000|Robbins|
+201|04|36|NY|30|Coastal|07-17-2000|Robbins|
+202|05|36|NY|30|Hudson Valley|07-17-2000|Robbins|
+203|06|36|NY|30|Mohawk Valley|07-17-2000|Robbins|
+204|07|36|NY|30|Champlain Valley|07-17-2000|Robbins|
+205|08|36|NY|30|St. Lawrence Valley|07-17-2000|Robbins|
+206|09|36|NY|30|Great Lakes|07-17-2000|Robbins|
+207|10|36|NY|30|Central Lakes|07-17-2000|Robbins|
+208|01|37|NC|31|Southern Mountains|07-17-2000|Robbins|
+209|02|37|NC|31|Northern Mountains|07-17-2000|Robbins|
+210|03|37|NC|31|Northern Piedmont|07-17-2000|Robbins|
+211|04|37|NC|31|Central Piedmont|07-17-2000|Robbins|
+212|05|37|NC|31|Southern Piedmont|07-17-2000|Robbins|
+213|06|37|NC|31|Southern Coastal Plain|07-17-2000|Robbins|
+214|07|37|NC|31|Central Coastal Plain|07-17-2000|Robbins|
+215|08|37|NC|31|Northern Coastal Plain|07-17-2000|Robbins|
+216|01|38|ND|32|Northwest|07-17-2000|Robbins|
+217|02|38|ND|32|North Central|07-17-2000|Robbins|
+218|03|38|ND|32|Northeast|07-17-2000|Robbins|
+219|04|38|ND|32|West Central|07-17-2000|Robbins|
+220|05|38|ND|32|Central|07-17-2000|Robbins|
+221|06|38|ND|32|East Central|07-17-2000|Robbins|
+222|07|38|ND|32|Southwest|07-17-2000|Robbins|
+223|08|38|ND|32|South Central|07-17-2000|Robbins|
+224|09|38|ND|32|Southeast|07-17-2000|Robbins|
+225|01|39|OH|33|Northwest|07-17-2000|Robbins|
+226|02|39|OH|33|North Central|07-17-2000|Robbins|
+227|03|39|OH|33|Northeast|07-17-2000|Robbins|
+228|04|39|OH|33|West Central|07-17-2000|Robbins|
+229|05|39|OH|33|Central|07-17-2000|Robbins|
+230|06|39|OH|33|Central Hills|07-17-2000|Robbins|
+231|07|39|OH|33|Northeast Hills|07-17-2000|Robbins|
+232|08|39|OH|33|Southwest|07-17-2000|Robbins|
+233|09|39|OH|33|South Central|07-17-2000|Robbins|
+234|10|39|OH|33|Southeast|07-17-2000|Robbins|
+235|01|40|OK|34|Panhandle|07-17-2000|Robbins|
+236|02|40|OK|34|North Central|07-17-2000|Robbins|
+237|03|40|OK|34|Northeast|07-17-2000|Robbins|
+238|04|40|OK|34|West Central|07-17-2000|Robbins|
+239|05|40|OK|34|Central|07-17-2000|Robbins|
+240|06|40|OK|34|East Central|07-17-2000|Robbins|
+241|07|40|OK|34|Southwest|07-17-2000|Robbins|
+242|08|40|OK|34|South Central|07-17-2000|Robbins|
+243|09|40|OK|34|Southeast|07-17-2000|Robbins|
+244|01|41|OR|35|Coastal Area|07-17-2000|Robbins|
+245|02|41|OR|35|Willamette Valley|07-17-2000|Robbins|
+246|03|41|OR|35|Southwestern Valleys|07-17-2000|Robbins|
+247|04|41|OR|35|Northern Cascades|07-17-2000|Robbins|
+248|05|41|OR|35|High Plateau|07-17-2000|Robbins|
+249|06|41|OR|35|North Central|07-17-2000|Robbins|
+250|07|41|OR|35|South Central|07-17-2000|Robbins|
+251|08|41|OR|35|Northeast|07-17-2000|Robbins|
+252|09|41|OR|35|Southeast|07-17-2000|Robbins|
+253|01|42|PA|36|Pocono Mountains|07-17-2000|Robbins|
+254|02|42|PA|36|East Central Mountains|07-17-2000|Robbins|
+255|03|42|PA|36|Southeastern Piedmont|07-17-2000|Robbins|
+256|04|42|PA|36|Lower Susquehanna|07-17-2000|Robbins|
+257|05|42|PA|36|Middle Susquehanna|07-17-2000|Robbins|
+258|06|42|PA|36|Upper Susquehanna|07-17-2000|Robbins|
+259|07|42|PA|36|Central Mountains|07-17-2000|Robbins|
+260|08|42|PA|36|South Central Mountains|07-17-2000|Robbins|
+261|09|42|PA|36|Southwest Plateau|07-17-2000|Robbins|
+262|10|42|PA|36|Northwest Plateau|07-17-2000|Robbins|
+263|01|44|RI|37|All|07-17-2000|Robbins|
+264|01|45|SC|38|Mountain|07-17-2000|Robbins|
+265|02|45|SC|38|Northwest|07-17-2000|Robbins|
+266|03|45|SC|38|North Central|07-17-2000|Robbins|
+267|04|45|SC|38|Northeast|07-17-2000|Robbins|
+268|05|45|SC|38|West Central|07-17-2000|Robbins|
+269|06|45|SC|38|Central|07-17-2000|Robbins|
+270|07|45|SC|38|Southern|07-17-2000|Robbins|
+271|01|46|SD|39|Northwest|07-17-2000|Robbins|
+272|02|46|SD|39|North Central|07-17-2000|Robbins|
+273|03|46|SD|39|Northeast|07-17-2000|Robbins|
+274|04|46|SD|39|Black Hills|07-17-2000|Robbins|
+275|05|46|SD|39|Southwest|07-17-2000|Robbins|
+276|06|46|SD|39|Central|07-17-2000|Robbins|
+277|07|46|SD|39|East Central|07-17-2000|Robbins|
+278|08|46|SD|39|South Central|07-17-2000|Robbins|
+279|09|46|SD|39|Southeast|07-17-2000|Robbins|
+280|01|47|TN|40|Eastern|07-17-2000|Robbins|
+281|02|47|TN|40|Cumberland Plateau|07-17-2000|Robbins|
+282|03|47|TN|40|Middle|07-17-2000|Robbins|
+283|04|47|TN|40|Western|07-17-2000|Robbins|
+284|01|48|TX|41|High Plains|07-17-2000|Robbins|
+285|02|48|TX|41|Low Rolling Plains|07-17-2000|Robbins|
+286|03|48|TX|41|North Central|07-17-2000|Robbins|
+287|04|48|TX|41|East Texas|07-17-2000|Robbins|
+288|05|48|TX|41|Trans Pecos|07-17-2000|Robbins|
+289|06|48|TX|41|Edwards Plateau|07-17-2000|Robbins|
+290|07|48|TX|41|South Central|07-17-2000|Robbins|
+291|08|48|TX|41|Upper Coast|07-17-2000|Robbins|
+292|09|48|TX|41|Southern|07-17-2000|Robbins|
+293|10|48|TX|41|Lower Valley|07-17-2000|Robbins|
+294|01|49|UT|42|Western|07-17-2000|Robbins|
+295|02|49|UT|42|Dixie|07-17-2000|Robbins|
+296|03|49|UT|42|North Central|07-17-2000|Robbins|
+297|04|49|UT|42|South Central|07-17-2000|Robbins|
+298|05|49|UT|42|Northern Mountains|07-17-2000|Robbins|
+299|06|49|UT|42|Uinta Basin|07-17-2000|Robbins|
+300|07|49|UT|42|Southeast|07-17-2000|Robbins|
+301|01|50|VT|43|Northeastern|07-17-2000|Robbins|
+302|02|50|VT|43|Western|07-17-2000|Robbins|
+303|03|50|VT|43|Southeastern|07-17-2000|Robbins|
+304|01|51|VA|44|Tidewater|07-17-2000|Robbins|
+305|02|51|VA|44|Eastern Piedmont|07-17-2000|Robbins|
+306|03|51|VA|44|Western Piedmont|07-17-2000|Robbins|
+307|04|51|VA|44|Northern|07-17-2000|Robbins|
+308|05|51|VA|44|Central Mountain|07-17-2000|Robbins|
+309|06|51|VA|44|Southwestern Mountain|07-17-2000|Robbins|
+310|01|53|WA|45|West Olympic Coastal|07-17-2000|Robbins|
+311|02|53|WA|45|Northeast Olympic San Juan|07-17-2000|Robbins|
+312|03|53|WA|45|Puget Sound Lowlands|07-17-2000|Robbins|
+313|04|53|WA|45|East Olympic Cascade Foothills|07-17-2000|Robbins|
+314|05|53|WA|45|Cascade Mountains West|07-17-2000|Robbins|
+315|06|53|WA|45|East Slope Cascades|07-17-2000|Robbins|
+316|07|53|WA|45|Okanogan Big Bend|07-17-2000|Robbins|
+317|08|53|WA|45|Central Basin|07-17-2000|Robbins|
+318|09|53|WA|45|Northeastern|07-17-2000|Robbins|
+319|10|53|WA|45|Palouse Blue Mountains|07-17-2000|Robbins|
+320|01|54|WV|46|Northwestern|07-17-2000|Robbins|
+321|02|54|WV|46|North Central|07-17-2000|Robbins|
+322|03|54|WV|46|Southwestern|07-17-2000|Robbins|
+323|04|54|WV|46|Central|07-17-2000|Robbins|
+324|05|54|WV|46|Southern|07-17-2000|Robbins|
+325|06|54|WV|46|Northeastern|07-17-2000|Robbins|
+326|01|55|WI|47|Northwest|07-17-2000|Robbins|
+327|02|55|WI|47|North Central|07-17-2000|Robbins|
+328|03|55|WI|47|Northeast|07-17-2000|Robbins|
+329|04|55|WI|47|West Central|07-17-2000|Robbins|
+330|05|55|WI|47|Central|07-17-2000|Robbins|
+331|06|55|WI|47|East Central|07-17-2000|Robbins|
+332|07|55|WI|47|Southwest|07-17-2000|Robbins|
+333|08|55|WI|47|South Central|07-17-2000|Robbins|
+334|09|55|WI|47|Southeast|07-17-2000|Robbins|
+335|01|56|WY|48|Yellowstone Drainage|07-17-2000|Robbins|
+336|02|56|WY|48|Snake Drainage|07-17-2000|Robbins|
+337|03|56|WY|48|Green & Bear Drainage|07-17-2000|Robbins|
+338|04|56|WY|48|Big Horn|07-17-2000|Robbins|
+339|05|56|WY|48|Powdr, Ltl Mo, Tongue Drainage|07-17-2000|Robbins|
+340|06|56|WY|48|Belle Fourche Drainage|07-17-2000|Robbins|
+341|07|56|WY|48|Cheyenne & Niobrara Drainage|07-17-2000|Robbins|
+342|08|56|WY|48|Lower Platte|07-17-2000|Robbins|
+343|09|56|WY|48|Wind River|07-17-2000|Robbins|
+344|10|56|WY|48|Upper Platte|07-17-2000|Robbins|
+345|01|02|AK|50|Southeastern|03-01-2001|Busler|
+346|02|02|AK|50|South Coast|03-01-2001|Busler|
+347|03|02|AK|50|Southwestern Islands|03-01-2001|Busler|
+348|04|02|AK|50|Copper River|03-01-2001|Busler|
+349|05|02|AK|50|Cook Inlet|03-01-2001|Busler|
+350|06|02|AK|50|Bristol Bay|03-01-2001|Busler|
+351|07|02|AK|50|West Central|03-01-2001|Busler|
+352|08|02|AK|50|Interior Basin|03-01-2001|Busler|
+353|09|02|AK|50|Arctic Drainage|03-01-2001|Busler|
+354|01|15|HI|51|Island of Kauai|03-01-2001|Busler|
+355|02|15|HI|51|Island of Oahu|03-01-2001|Busler|
+356|03|15|HI|51|Island of Molokai|03-01-2001|Busler|
+356|04|15|HI|51|Island of Lanai|03-01-2001|Busler|
+357|05|15|HI|51|Island of Maui|03-01-2001|Busler|
+358|06|15|HI|51|Island of Hawaii|03-01-2001|Busler|
+359|07|15|HI|51|Island of Kahoolawe|03-01-2001|Busler|
+

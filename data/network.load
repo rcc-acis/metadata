@@ -1,0 +1,15 @@
+0|unknown|Unknown||0|19990325|bnoon|
+1|coop|NWS Coop||2|19990325|bnoon|
+2|wban|NCDC WBAN Archive||1|19990325|bnoon|
+3|metar|NWS feed-METAR hourly||5|19990325|bnoon|
+4|shef|NWS feed||7|19990325|bnoon|
+5|awdn|High Plains Hourly Weather Net||16|20000126|sorensen|
+6|hcn|Historical Climate Network||2|20000423|bnoon|
+7|scan|Soil Climate Analysis Network||17|20000503|jblum|
+8|FAWN|Florida Automated Weather Network||18|20000517|jblume|
+9|nrcc|NRCC Local Data||2|20010220|bnoon|
+10|snotel|SNOTEL network|NRCS SNOpack TELemetry|19|20010510|gmccurdy|
+11|raws|RAWS network|Remote Automated Weather Station - NIFC|20|20010510|gmccurdy|
+12|cemp|CEMP DOE/NTS Nevada|Community Environmental Monitoring Program - Nevada Test Site|20|20010510|gmccurdy|
+13|wrcc|WRCC local network|Western Regional Climate Center|20|20010510|gmccurdy|
+14|srcc|SRCC Local Data||2|20020131|bnoon|

@@ -1,0 +1,15 @@
+0|Unknown||NA|19990325|bnoon|
+1|WBAN number||NCDC|19990325|bnoon|
+2|NWS Coop number||NCDC|19990325|bnoon|
+3|FAA Location Identifier||FAA|19990325|bnoon|
+4|WMO number||WMO, NWS for US stations|19990325|bnoon|
+5|ICAO ID||ICAO, NWS for US stations|19990325|bnoon|
+7|NWSLI||NWS|19990325|bnoon|
+10|USHCN number||NCDC ?|19990325|bnoon|
+14|(reserved for NCDC)||NA|19990325|bnoon|
+15|GOES ID||NESDES ?|19990325|bnoon|
+16|AWDN Identifier||HPCC|20000120|bnoon|
+17|SCAN Identifier||National Water & Climate Center|20000503|jblum|
+18|FAWN Identifier||University of Florida|20000517|jblume|
+19|NRCS id||National Water and Climate Center|20010510|gmccurdy|
+20|WRCC identifier||Western Regional Climate Center|20010510|gmccurdy|

@@ -209,3 +209,11 @@
 100|1|Wind gust direction|inst|inst|sub-hrly|degrees|madis|
 101|1|precipitation|sum|hrly|sub-hrly|Inch |madis|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
+103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|
+103|2|Daily soil moisture by impedance at 25 cm|avg|daily|daily|%|awdn|
+103|3|Daily soil moisture by impedance at 50 cm|avg|daily|daily|%|awdn|
+103|4|Daily soil moisture by impedance at 100 cm|avg|daily|daily|%|awdn|
+104|1|Hourly soil moisture by capacitance at 10 cm|avg|hourly|hourly|%|awdn|
+104|2|Hourly soil moisture by capacitance at 25 cm|avg|hourly|hourly|%|awdn|
+104|3|Hourly soil moisture by capacitance at 50 cm|avg|hourly|hourly|%|awdn|
+104|4|Hourly soil moisture by capacitance at 100 cm|avg|hourly|hourly|%|awdn|

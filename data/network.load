@@ -12,4 +12,5 @@
 11|raws|RAWS network|Remote Automated Weather Station - NIFC|20|20010510|gmccurdy|
 12|cemp|CEMP DOE/NTS Nevada|Community Environmental Monitoring Program - Nevada Test Site|20|20010510|gmccurdy|
 13|wrcc|WRCC local network|Western Regional Climate Center|20|20010510|gmccurdy|
-14|srcc|SRCC Local Data||2|20020131|bnoon|
+14|dsm|Daily Summary Data||5|20020808|bnoon|
+15|TD3206|NWS Coop pre-1948||2|20020416|sorensen

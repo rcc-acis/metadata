@@ -1,6 +1,6 @@
 0|unknown|Unknown||0|19990325|bnoon|
-1|coop|NWS Coop||2|19990325|bnoon|
-2|wban|NCDC WBAN Archive||1|19990325|bnoon|
+1|td3200|NWS Coop||2|19990325|bnoon|
+2|td3210|NCDC WBAN Archive||1|19990325|bnoon|
 3|metar|NWS feed-METAR hourly||5|19990325|bnoon|
 4|shef|NWS feed||7|19990325|bnoon|
 5|awdn|High Plains Hourly Weather Net||16|20000126|sorensen|
@@ -50,3 +50,4 @@
 49|madis31|MADIS INDOT||22|20050427|bnoon|
 50|madis32|MADIS FLDOT||22|20050427|bnoon|
 51|madis33|MADIS AKDOT||22|20050427|bnoon|
+52|td3205|MCC Coop pre-1948||2|20050808|bnoon|

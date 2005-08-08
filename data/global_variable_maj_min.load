@@ -11,6 +11,7 @@
 1|12|Maximum Temperature|max|daily|daily|DegF|madis|
 1|13|Maximum Temperature|max|daily|daily|DegF|cli:TX|
 1|14|Maximum Temperature|max|daily|daily|DegF|td3210:TMAX|
+1|15|Maximum Temperature|max|daily|daily|DegF|td3205:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -24,6 +25,7 @@
 2|12|Minimum Temperature|min|daily|daily|DegF|madis|
 2|13|Minimum Temperature|min|daily|daily|DegF|cli:TN|
 2|14|Minimum Temperature|min|daily|daily|DegF|td3210:TMIN|
+2|15|Minimum Temperature|min|daily|daily|DegF|td3205:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -45,6 +47,7 @@
 4|11|Precipitation|sum|daily|daily|Inch|madis|
 4|12|Precipitation|sum|daily|daily|Inch|cli:PP|
 4|13|Precipitation|sum|daily|daily|Inch|td3210:PRCP|
+4|14|Precipitation|sum|daily|daily|Inch|td3205:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
@@ -67,6 +70,7 @@
 10|10|Snowfall|sum|daily|daily|Inch|srcc:SF|
 10|11|Snowfall|sum|daily|daily|Inch|cli:SF|
 10|12|Snowfall|sum|daily|daily|Inch|td3210:SNOW|
+10|13|Snowfall|sum|daily|daily|Inch|td3205:SNOW|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
@@ -76,6 +80,7 @@
 11|9|Snow Depth at obs time|inst|inst|daily|Inch|srcc:SD|
 11|10|Snow Depth at obs time|inst|inst|daily|Inch|cli:SD|
 11|11|Snow Depth at obs time|inst|inst|daily|Inch|td3210:SNWD|
+11|12|Snow Depth at obs time|inst|inst|daily|Inch|td3205:SNWD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|

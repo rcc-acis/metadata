@@ -6,6 +6,7 @@
 5|ICAO ID||ICAO, NWS for US stations|19990325|bnoon|
 7|NWSLI||NWS|19990325|bnoon|
 8|NRCC identifier||Northeast Regional Climate Center|20040726|bnoon|
+9|THRDX identifier||NRCC|20060215|bnoon|
 10|USHCN number||NCDC ?|19990325|bnoon|
 14|(reserved for NCDC)||NA|19990325|bnoon|
 15|GOES ID||NESDES ?|19990325|bnoon|

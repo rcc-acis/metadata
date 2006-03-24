@@ -193,7 +193,7 @@
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|
 70|2|Total Rad Horizontal Surface|sum|daily|daily|MJ/m2|awdn|
 71|1|Avg Relative Humidity|ave|daily|daily|percent|awdn|
-72|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
+71|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
 72|1|Evapotranspiration NE|sum|daily|daily|inch|awdn|
 73|1|Max Relative Humidity|max|daily|daily|percent|awdn|
 73|2|Max Relative Humidity|max|daily|daily|percent|cli:MXRH|

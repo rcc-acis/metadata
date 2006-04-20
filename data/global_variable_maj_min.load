@@ -57,6 +57,7 @@
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
+5|5|Hourly precipitation|sum|hrly|hrly|Inch |shef:PPH|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -126,6 +127,7 @@
 23|2|Dry bulb Temperature|inst|inst|hrly|DegF|td3280:TMPD,TMCD|
 23|3|Dry bulb Temperature|inst|inst|hrly|DegF|metar|
 23|4|Dry bulb Temperature|inst|inst|hrly|DegF|madis|
+23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|madis|
@@ -247,3 +249,10 @@
 107|1|Average Daily Dew-Point Temperature|avg|daily|daily|degF|td3210:DPTP|
 108|1|Average Daily Wet-Bulb Temperature|avg|daily|daily|degF|td3210:TMPW|
 109|1|Day with Weather in the Vicinity|sum|daily|daily||td3210:DYVC|
+110|1|Precipitation|sum|daily|hrly|Inch|shef:PPP|
+110|2|Precipitation|sum|daily|hrly|Inch|shef:PPD|
+111|1|Snowfall|sum|daily|hrly|Inch|shef:SF|
+112|1|Snow Depth at obs time|inst|inst|hrly|Inch|shef:SD|
+113|1|Water Equivalent of snow depth|inst|inst|hrly|Inch|shef:SW|
+114|1|Maximum Daily Temperature|max|daily|hrly|DegF|shef:TX|
+115|1|Minimum Daily Temperature|min|daily|hrly|DegF|shef:TN|

@@ -14,6 +14,7 @@
 1|15|Maximum Temperature|max|daily|daily|DegF|td3205:TMAX|
 1|16|Maximum Temperature|max|daily|daily|DegF|td3299:TMAX|
 1|17|Maximum Temperature|max|daily|daily|DegF|ThrdX|
+1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -30,6 +31,7 @@
 2|15|Minimum Temperature|min|daily|daily|DegF|td3205:TMIN|
 2|16|Minimum Temperature|min|daily|daily|DegF|td3299:TMIN|
 2|17|Minimum Temperature|min|daily|daily|DegF|ThrdX|
+2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -54,6 +56,7 @@
 4|14|Precipitation|sum|daily|daily|Inch|td3205:PRCP|
 4|15|Precipitation|sum|daily|daily|Inch|td3299:PRCP|
 4|16|Precipitation|sum|daily|daily|Inch|ThrdX|
+4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
@@ -80,6 +83,7 @@
 10|13|Snowfall|sum|daily|daily|Inch|td3205:SNOW|
 10|14|Snowfall|sum|daily|daily|Inch|td3299:SNOW|
 10|15|Snowfall|sum|daily|daily|Inch|ThrdX|
+10|16|Snowfall|sum|daily|daily|Inch|td3298:SNOW|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
@@ -165,6 +169,7 @@
 42|3|peak wind speed|max|hrly|hrly|knots|metar|
 43|0|Average Daily Temperature|ave|daily|daily|DegF|derived|
 43|2|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
+43|3|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
 44|0|Degree Day Above|ave|daily|daily|DegF|derived|
 45|0|Degree Day Below|ave|daily|daily|DegF|derived|
 46|0|Multi Min/Max|||daily||product|

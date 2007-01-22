@@ -168,14 +168,11 @@
 41|3|peak wind direction|max|hrly|hrly|degrees|metar|
 42|3|peak wind speed|max|hrly|hrly|knots|metar|
 43|0|Average Daily Temperature|ave|daily|daily|DegF|derived|
-43|2|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
-43|3|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
 44|0|Degree Day Above|ave|daily|daily|DegF|derived|
 45|0|Degree Day Below|ave|daily|daily|DegF|derived|
 46|0|Multi Min/Max|||daily||product|
 47|0|Interval Min/Max|||daily||product|
 48|0|Temperature Range|range|daily|daily|DegF|derived|
-48|2|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
 49|0|Date of Occurrence|||daily||product|
 50|0|Daily Statistics|||daily||product|
 51|0|Monthly Statistics|||daily||product|
@@ -261,3 +258,6 @@
 113|1|Water Equivalent of snow depth|inst|inst|hrly|Inch|shef:SW|
 114|1|Maximum Daily Temperature|max|daily|hrly|DegF|shef:TX|
 115|1|Minimum Daily Temperature|min|daily|hrly|DegF|shef:TN|
+116|1|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
+116|2|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
+117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|

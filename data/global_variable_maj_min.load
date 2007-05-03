@@ -15,6 +15,7 @@
 1|16|Maximum Temperature|max|daily|daily|DegF|td3299:TMAX|
 1|17|Maximum Temperature|max|daily|daily|DegF|ThrdX|
 1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
+1|19|Maximum Temperature|max|daily|daily|DegF|newa|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -32,6 +33,7 @@
 2|16|Minimum Temperature|min|daily|daily|DegF|td3299:TMIN|
 2|17|Minimum Temperature|min|daily|daily|DegF|ThrdX|
 2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
+2|19|Minimum Temperature|min|daily|daily|DegF|newa|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -57,10 +59,12 @@
 4|15|Precipitation|sum|daily|daily|Inch|td3299:PRCP|
 4|16|Precipitation|sum|daily|daily|Inch|ThrdX|
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
+4|18|Precipitation|sum|daily|daily|Inch|newa|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch |shef:PPH|
+5|6|Hourly precipitation|sum|hrly|hrly|Inch |newa:prec|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -128,13 +132,16 @@
 22|2|Dew point temperature|inst|inst|hrly|DegF|td3280:DPTC,DPTP|
 22|3|Dew point temperature|inst|inst|hrly|DegF|metar|
 22|4|Dew point temperature|inst|inst|hrly|DegF|madis|
+22|5|Dew point temperature|inst|inst|hrly|DegF|newa:dewpt|
 23|2|Dry bulb Temperature|inst|inst|hrly|DegF|td3280:TMPD,TMCD|
 23|3|Dry bulb Temperature|inst|inst|hrly|DegF|metar|
 23|4|Dry bulb Temperature|inst|inst|hrly|DegF|madis|
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
+23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
 24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|madis|
+24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
 25|2|Wet bulb Temperature|inst|inst|hrly|DegF|td3280:TMPW|
 25|3|Wet bulb Temperature|inst|inst|hrly|DegF|metar|
 26|2|Horizontal Visibility|inst|inst|hrly|Miles|td3280:HZVS|
@@ -146,6 +153,7 @@
 28|2|Wind speed|inst|inst|hrly|knot|td3280:WD16,WIND|
 28|3|Wind speed|inst|inst|hrly|knot|metar|
 28|4|Wind speed|inst|inst|hrly|knot|madis|
+28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
 29|2|Cloud Coverage|inst|inst|hrly|fraction|td3280|
 29|3|Cloud Coverage|inst|inst|hrly|fraction|metar|
 30|2|Cloud Condition|inst|inst|hrly||td3280|
@@ -261,3 +269,7 @@
 116|1|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
 116|2|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
 117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
+118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
+119|5|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
+120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
+120|2|Soil temperature 8in|inst|inst|hrly|DegF|newa:ST8|

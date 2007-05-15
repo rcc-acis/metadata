@@ -270,6 +270,6 @@
 116|2|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
 117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
 118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
-119|5|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
+119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
 120|2|Soil temperature 8in|inst|inst|hrly|DegF|newa:ST8|

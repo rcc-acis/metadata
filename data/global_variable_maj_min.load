@@ -60,11 +60,12 @@
 4|16|Precipitation|sum|daily|daily|Inch|ThrdX|
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 4|18|Precipitation|sum|daily|daily|Inch|newa|
-5|2|Hourly precipitation|sum|hrly|hrly|Inch |td3240|
-5|3|Hourly precipitation|sum|hrly|hrly|Inch |metar|
-5|4|Hourly precipitation|sum|hrly|hrly|Inch |madis|
-5|5|Hourly precipitation|sum|hrly|hrly|Inch |shef:PPH|
-5|6|Hourly precipitation|sum|hrly|hrly|Inch |newa:prec|
+5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
+5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
+5|4|Hourly precipitation|sum|hrly|hrly|Inch|madis|
+5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|
+5|6|Hourly precipitation|sum|hrly|hrly|Inch|newa:prec|
+5|7|Hourly precipitation|sum|hrly|hrly|Inch|culog:PRCP_H|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -142,6 +143,8 @@
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|madis|
 24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
+24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|
+24|7|Relative Humidity #2|inst|inst|hrly|percent|culog:SAMPLE_RH2_H|
 25|2|Wet bulb Temperature|inst|inst|hrly|DegF|td3280:TMPW|
 25|3|Wet bulb Temperature|inst|inst|hrly|DegF|metar|
 26|2|Horizontal Visibility|inst|inst|hrly|Miles|td3280:HZVS|
@@ -175,6 +178,10 @@
 40|3|6-hourly minimum temperature|min|6 hr|6 hrly|DegF|metar|
 41|3|peak wind direction|max|hrly|hrly|degrees|metar|
 42|3|peak wind speed|max|hrly|hrly|knots|metar|
+42|4|Hourly Max. 10-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_10SEC_H|
+42|5|Hourly Max. 30-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_30SEC_H|
+42|6|Hourly Max. 1-minute Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_1MIN_H|
+42|7|Hourly Max. 30-second Wind Speed 60 in.|max|hrly|hrly|miles/hour|culog:WSMAX_60IN_30SEC_H|
 43|0|Average Daily Temperature|ave|daily|daily|DegF|derived|
 44|0|Degree Day Above|ave|daily|daily|DegF|derived|
 45|0|Degree Day Below|ave|daily|daily|DegF|derived|
@@ -227,8 +234,8 @@
 83|1|Net Rad MJ|sum|daily|daily|MJ/m2|awdn|
 84|1|Accumulated Hours Over 10c/50F|sum|daily|daily|hour|awdn|
 84|1|Accumulated Hours Over 4c/40F|sum|daily|daily|hour|awdn|
-85|3|Wind gust|inst|hrly|hrly|knots|metar|
-85|4|Wind gust|inst|hrly|hrly|knots|madis|
+85|3|Wind gust|inst|inst|hrly|knots|metar|
+85|4|Wind gust|inst|inst|hrly|knots|madis|
 86|1|Average Temperature|ave|weekly|weekly|DegF|cpc|
 87|0|Daily sum of Day Range|sum|daily|daily||derived|
 88|1|Daily Cloudiness|ave|daily|daily|percent|td3206:SKYC|
@@ -273,3 +280,43 @@
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
 120|2|Soil temperature 8in|inst|inst|hrly|DegF|newa:ST8|
+121|273|Hourly Max. Bare 4 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_BARESOIL_10_H|
+121|265|Hourly Max. Grass 4 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_GRASS_10_H|
+121|401|Hourly Max. Bare 8 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_BARESOIL_20_H|
+121|393|Hourly Max. Grass 8 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_GRASS_20_H|
+122|273|Hourly Min. Bare 4 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_BARESOIL_10_H|
+122|265|Hourly Min. Grass 4 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_GRASS_10_H|
+122|401|Hourly Min. Bare 8 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_BARESOIL_20_H|
+122|393|Hourly Min. Grass 8 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_GRASS_20_H|
+123|273|Hourly Ave. Bare 4 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_10_H|
+123|265|Hourly Ave. Grass 4 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_GRASS_10_H|
+123|401|Hourly Ave. Bare 8 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_20_H|
+123|393|Hourly Ave. Grass 8 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_GRASS_20_H|
+123|529|Hourly Ave. Bare 20 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_50_H|
+124|1|Maximum Hourly 60 in. Temperature|max|hrly|hrly|degC|culog:TMAX_H|
+124|2|Maximum Hourly 60 in. Temperature #2|max|hrly|hrly|degC|culog:TMAX2_H|
+124|3|Maximum Hourly 3 in. Temperature|max|hrly|hrly|degC|culog:TMAX_3IN_H|
+125|1|Minimum Hourly 60 in. Temperature|min|hrly|hrly|degC|culog:TMIN_H|
+125|2|Minimum Hourly 60 in. Temperature #2|min|hrly|hrly|degC|culog:TMIN2_H|
+125|3|Minimum Hourly 3 in. Temperature|min|hrly|hrly|degC|culog:TMIN_3IN_H|
+126|1|Average Hourly 60 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_H|
+126|2|Average Hourly 60 in. Temperature #2|ave|hrly|hrly|degC|culog:TAVG2_H|
+126|3|Average Hourly 3 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_3IN_H|
+127|1|Hourly Cumulative Precipitation|inst|inst|hrly|inch|culog:PRCP_WEIGHT_H|
+128|1|Hourly Ave. Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WSAVG_H|
+128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
+128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
+129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
+129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
+130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|
+130|2|Hourly Ave. Wind Direction 60 in.|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_60IN_H|
+131|1|Hourly Std. Dev. Wind Direction 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_H|
+131|2|Hourly Std. Dev. Wind Direction 60 in.|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_60IN_H|
+131|3|Hourly Std. Dev. Wind Direction-Yamartino 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEVY_H|
+132|1|Hourly Solar radiation|sum|hrly|hrly|langley|culog:SOLARRAD_H|
+132|2|Hourly Solar radiation #2|sum|hrly|hrly|langley|culog:SOLARRAD2_H|
+133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
+134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
+135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
+136|1|Hourly Std. Dev. Ozone Concentration|stddev|hrly|hrly||culog:OZ_STDEV_H|
+137|1|Hourly Battery Voltage|inst|inst|hrly|volt|culog:BATTVOLT_H|

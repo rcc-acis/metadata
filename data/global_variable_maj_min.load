@@ -153,6 +153,7 @@
 27|2|Wind direction|inst|inst|hrly|degrees|td3280:WD16,WIND|
 27|3|Wind direction|inst|inst|hrly|degrees|metar|
 27|4|Wind direction|inst|inst|hrly|degrees|madis|
+27|5|Wind direction|inst|inst|hrly|degrees|newa:wdir|
 28|2|Wind speed|inst|inst|hrly|knot|td3280:WD16,WIND|
 28|3|Wind speed|inst|inst|hrly|knot|metar|
 28|4|Wind speed|inst|inst|hrly|knot|madis|

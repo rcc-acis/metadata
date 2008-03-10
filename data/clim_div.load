@@ -354,7 +354,6 @@
 354|01|15|HI|51|Island of Kauai|03-01-2001|Busler|
 355|02|15|HI|51|Island of Oahu|03-01-2001|Busler|
 356|03|15|HI|51|Island of Molokai|03-01-2001|Busler|
-356|04|15|HI|51|Island of Lanai|03-01-2001|Busler|
 357|05|15|HI|51|Island of Maui|03-01-2001|Busler|
 358|06|15|HI|51|Island of Hawaii|03-01-2001|Busler|
 359|07|15|HI|51|Island of Kahoolawe|03-01-2001|Busler|
@@ -368,4 +367,7 @@
 367|01|78|VI|67|St. Thomasl|11-12-2003|KLE|
 368|02|78|VI|67|St. Croix|11-12-2003|KLE|
 369|03|78|VI|67|St. John|11-12-2003|KLE|
-
+370|04|15|HI|51|Island of Lanai|03-10-2008|bnoon|
+371|02|60|PI|91|East of 180th Meridian|03-25-2004|KLE|
+372|03|66|PI|91|Western Pacific Islands|03-25-2004|KLE|
+373|04|69|PI|91|Caroline and Mariana Islands|03-25-2004|KLE|

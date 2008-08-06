@@ -16,6 +16,7 @@
 1|17|Maximum Temperature|max|daily|daily|DegF|ThrdX|
 1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
 1|19|Maximum Temperature|max|daily|daily|DegF|newa|
+1|20|Maximum Temperature|max|daily|daily|DegF|crn:tmax|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -34,6 +35,7 @@
 2|17|Minimum Temperature|min|daily|daily|DegF|ThrdX|
 2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
 2|19|Minimum Temperature|min|daily|daily|DegF|newa|
+2|20|Minimum Temperature|min|daily|daily|DegF|crn:tmin|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -60,12 +62,14 @@
 4|16|Precipitation|sum|daily|daily|Inch|ThrdX|
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 4|18|Precipitation|sum|daily|daily|Inch|newa|
+4|19|Precipitation|sum|daily|daily|Inch|crn:prcp|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch|madis|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|
 5|6|Hourly precipitation|sum|hrly|hrly|Inch|newa:prec|
 5|7|Hourly precipitation|sum|hrly|hrly|Inch|culog:PRCP_H|
+5|8|Hourly precipitation|sum|hrly|hrly|Inch|crn:prec_hr|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -139,6 +143,7 @@
 23|4|Dry bulb Temperature|inst|inst|hrly|DegF|madis|
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
+23|7|Dry bulb Temperature|inst|inst|hrly|DegF|crn:temp|
 24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|madis|
@@ -276,6 +281,7 @@
 115|1|Minimum Daily Temperature|min|daily|hrly|DegF|shef:TN|
 116|1|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
 116|2|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
+116|3|Average Daily Temperature|ave|daily|daily|DegF|crn:tavg|
 117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
 118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
@@ -316,8 +322,10 @@
 131|3|Hourly Std. Dev. Wind Direction-Yamartino 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEVY_H|
 132|1|Hourly Solar radiation|sum|hrly|hrly|langley|culog:SOLARRAD_H|
 132|2|Hourly Solar radiation #2|sum|hrly|hrly|langley|culog:SOLARRAD2_H|
+132|3|Hourly Ave. Solar radiation|sum|hrly|hrly|langley|crn:solarRad_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
 136|1|Hourly Std. Dev. Ozone Concentration|stddev|hrly|hrly||culog:OZ_STDEV_H|
 137|1|Hourly Battery Voltage|inst|inst|hrly|volt|culog:BATTVOLT_H|
+138|1|Hourly Average Surface Temperature|avg|hrly|hrly|degF|crn:surfTemp_hr|

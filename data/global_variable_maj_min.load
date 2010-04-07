@@ -209,23 +209,16 @@
 49|0|Date of Occurrence|||daily||product|
 50|0|Daily Statistics|||daily||product|
 51|0|Monthly Statistics|||daily||product|
-52|1|Precipitation|sum|weekly|weekly|inch|cpc|
-53|1|Soil Moisture upper layer|inst|weekly|weekly|inch|cpc|
-54|1|Soil Moisture lower layer|inst|weekly|weekly|inch|cpc|
-55|1|Percent Flooded|inst|weekly|weekly|None|cpc|
-56|1|Potential Evaporation|sum|weekly|weekly|inch|cpc|
-57|1|Run Off|sum|weekly|weekly|inch|cpc|
-58|1|Crop Moisture Index|inst|weekly|weekly|None|cpc|
-59|1|Crop Moisture Index Change|inst|weekly|weekly|None|cpc|
-60|1|Monthly Moisture Z Index|inst|weekly|weekly|None|cpc|
-61|1|Palmer Drought Index|inst|weekly|weekly|None|cpc|
-62|1|Precipitation Needed to End Drought|inst|weekly|weekly|inch|cpc|
-63|1|Average Temperature|ave|monthly|monthly|DegF|ncdc|
-64|1|Precipitation|sum|monthly|monthly|Inch|ncdc|
-65|1|Palmer Drought Severity Index|inst|monthly|monthly|None|ncdc|
-66|1|Palmer Hydrological Drought Index|inst|monthly|monthly|None|ncdc|
-67|1|Palmer Meteorological Drought Index|inst|monthly|monthly|None|ncdc|
-68|1|Z index|inst|monthly|monthly|None|ncdc|
+52|1|Precipitation|sum|15min|15min|inch|culog:PRCP_15MIN|
+53|1|Avg wind speed|ave|15min|15min|mph|culog:WSPD_15MIN|
+54|1|wind direction|ave|15min|15min|degrees|culog:WDIR_15MIN|
+55|1|Max 1-minute wind speed|max|15min|15min|mph|culog:WSMAX_1MIN_15MIN|
+56|1|Dry bulb Temperature|inst|inst|15min|DegF|culog:TEMP_15MIN|
+57|1|Relative Humidity|inst|inst|15min|percent|culog:RH_15MIN|
+58|1|Dew point temperature|inst|inst|15min|DegF|culog:DEWPT_15MIN|
+59|1|Soil temperature 12in|inst|inst|15min|DegF|culog:ST12_15MIN|
+60|1|Solar Radiation Rate|inst|15min|15min|watt/m2|culog:SR_15MIN|
+61|1|Leaf Wetness minutes|sum|15min|15min|minutes|culog:LW_15MIN|
 69|274|Avg Soil Temp at 10cm Bare Soil|ave|daily|daily|degF|awdn|
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|
 70|2|Total Rad Horizontal Surface|sum|daily|daily|MJ/m2|awdn|

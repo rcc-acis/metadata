@@ -66,6 +66,7 @@
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|
 5|6|Hourly precipitation|sum|hrly|hrly|Inch|newa:prec|
 5|7|Hourly precipitation|sum|hrly|hrly|Inch|culog:PRCP_H|
+5|8|Hourly precipitation|sum|hrly|hrly|mm|njwx|
 5|9|Hourly precipitation from 15min|sum|hrly|hrly|Inch|culog:PRCP_HD|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
@@ -124,6 +125,7 @@
 18|2|Station Pressure|inst|inst|hrly|inch_Hg|td3280:PRES|
 18|3|Station Pressure|inst|inst|hrly|inch_Hg|metar|
 18|4|Station Pressure|inst|inst|hrly|inch_Hg|metar_rt|
+18|5|Station Pressure|inst|inst|hrly|mbar|njwx|
 19|2|Sea level pressure|inst|inst|hrly|inch_Hg|td3280:SLVP|
 19|3|Sea level pressure|inst|inst|hrly|inch_Hg|metar|
 19|4|Sea level pressure|inst|inst|hrly|inch_Hg|metar_rt|
@@ -137,11 +139,13 @@
 22|3|Dew point temperature|inst|inst|hrly|DegF|metar|
 22|4|Dew point temperature|inst|inst|hrly|DegF|metar_rt|
 22|5|Dew point temperature|inst|inst|hrly|DegF|newa:dewpt|
+22|6|Dew point temperature|inst|inst|hrly|DegC|njwx|
 23|2|Dry bulb Temperature|inst|inst|hrly|DegF|td3280:TMPD,TMCD|
 23|3|Dry bulb Temperature|inst|inst|hrly|DegF|metar|
 23|4|Dry bulb Temperature|inst|inst|hrly|DegF|metar_rt|
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
+23|7|Dry bulb Temperature|inst|inst|hrly|DegC|njwx|
 24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|metar_rt|
@@ -149,6 +153,7 @@
 24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|
 24|7|Relative Humidity #2|inst|inst|hrly|percent|culog:SAMPLE_RH2_H|
 24|8|Relative Humidity from 15min|inst|inst|hrly|percent|culog:SAMPLE_RH_HD|
+24|9|Relative Humidity|inst|inst|hrly|percent|njwx|
 25|2|Wet bulb Temperature|inst|inst|hrly|DegF|td3280:TMPW|
 25|3|Wet bulb Temperature|inst|inst|hrly|DegF|metar|
 25|4|Wet bulb Temperature|inst|inst|hrly|DegF|metar_rt|
@@ -159,10 +164,12 @@
 27|3|Wind direction|inst|inst|hrly|degrees|metar|
 27|4|Wind direction|inst|inst|hrly|degrees|metar_rt|
 27|5|Wind direction|inst|inst|hrly|degrees|newa:wdir|
+27|6|Wind direction|inst|inst|hrly|degrees|njwx|
 28|2|Wind speed|inst|inst|hrly|knot|td3280:WD16,WIND|
 28|3|Wind speed|inst|inst|hrly|knot|metar|
 28|4|Wind speed|inst|inst|hrly|knot|metar_rt|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
+28|6|Wind speed|inst|inst|hrly|m/sec|njwx|
 29|2|Cloud Coverage|inst|inst|hrly|fraction|td3280|
 29|3|Cloud Coverage|inst|inst|hrly|fraction|metar|
 29|4|Cloud Coverage|inst|inst|hrly|fraction|metar_rt|
@@ -191,12 +198,14 @@
 40|3|6-hourly minimum temperature|min|6 hr|6 hrly|DegF|metar|
 41|3|peak wind direction|max|hrly|hrly|degrees|metar|
 41|4|peak wind direction|max|hrly|hrly|degrees|metar_rt|
+41|5|peak wind direction|max|hrly|hrly|degrees|njwx|
 42|2|peak wind speed|max|hrly|hrly|knots|metar_rt|
 42|3|peak wind speed|max|hrly|hrly|knots|metar|
 42|4|Hourly Max. 10-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_10SEC_H|
 42|5|Hourly Max. 30-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_30SEC_H|
 42|6|Hourly Max. 1-minute Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_1MIN_H|
 42|7|Hourly Max. 30-second Wind Speed 60 in.|max|hrly|hrly|miles/hour|culog:WSMAX_60IN_30SEC_H|
+42|8|peak wind speed|max|hrly|hrly|m/sec|njwx|
 43|0|Average Daily Temperature|ave|daily|daily|DegF|derived|
 44|0|Degree Day Above|ave|daily|daily|DegF|derived|
 45|0|Degree Day Below|ave|daily|daily|DegF|derived|
@@ -294,6 +303,7 @@
 118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
 118|2|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|culog:LW_HD|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
+119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
 120|2|Soil temperature 8in|inst|inst|hrly|DegF|newa:ST8|
 121|273|Hourly Max. Bare 4 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_BARESOIL_10_H|
@@ -313,18 +323,22 @@
 124|2|Maximum Hourly 60 in. Temperature #2|max|hrly|hrly|degC|culog:TMAX2_H|
 124|3|Maximum Hourly 3 in. Temperature|max|hrly|hrly|degC|culog:TMAX_3IN_H|
 124|4|Maximum Hourly 60 in. Temperature from 15min|max|hrly|hrly|degC|culog:TMAX_HD|
+124|5|Maximum Hourly Temperature|max|hrly|hrly|degC|njwx|
 125|1|Minimum Hourly 60 in. Temperature|min|hrly|hrly|degC|culog:TMIN_H|
 125|2|Minimum Hourly 60 in. Temperature #2|min|hrly|hrly|degC|culog:TMIN2_H|
 125|3|Minimum Hourly 3 in. Temperature|min|hrly|hrly|degC|culog:TMIN_3IN_H|
 125|4|Minimum Hourly 60 in. Temperature from 15min|min|hrly|hrly|degC|culog:TMIN_HD|
+125|5|Minimum Hourly Temperature|min|hrly|hrly|degC|njwx|
 126|1|Average Hourly 60 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_H|
 126|2|Average Hourly 60 in. Temperature #2|ave|hrly|hrly|degC|culog:TAVG2_H|
 126|3|Average Hourly 3 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_3IN_H|
 126|4|Average Hourly 60 in. Temperature from 15min|ave|hrly|hrly|degC|culog:TAVG_HD|
+126|5|Average Hourly Temperature|ave|hrly|hrly|degC|njwx|
 127|1|Hourly Cumulative Precipitation|inst|inst|hrly|inch|culog:PRCP_WEIGHT_H|
 128|1|Hourly Ave. Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WSAVG_H|
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
 128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
+128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njxw|
 129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
 129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
 130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|
@@ -335,8 +349,21 @@
 132|1|Hourly Solar radiation|sum|hrly|hrly|langley|culog:SOLARRAD_H|
 132|2|Hourly Solar radiation #2|sum|hrly|hrly|langley|culog:SOLARRAD2_H|
 132|4|Hourly Solar radiation from 15min|sum|hrly|hrly|langley|culog:SOLARRAD_HD|
+132|5|Hourly Solar radiation|sum|hrly|hrly|joule/m2|njwx|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
 136|1|Hourly Std. Dev. Ozone Concentration|stddev|hrly|hrly||culog:OZ_STDEV_H|
 137|1|Hourly Battery Voltage|inst|inst|hrly|volt|culog:BATTVOLT_H|
+138|1|Max Hourly Dew point temperature|max|hrly|hrly|DegC|njwx|
+139|1|Min Hourly Dew point temperature|min|hrly|hrly|DegC|njwx|
+140|1|Ave Hourly Dew point temperature|avg|hrly|hrly|DegC|njwx|
+141|1|Max Hourly Relative Humidity|max|hrly|hrly|percent|njwx|
+142|1|Min Hourly Relative Humidity|min|hrly|hrly|percent|njwx|
+143|1|Ave Hourly Relative Humidity|avg|hrly|hrly|percent|njwx|
+144|1|Max Hourly Station Pressure|max|hrly|hrly|mbar|njwx|
+145|1|Min Hourly Station Pressure|min|hrly|hrly|mbar|njwx|
+146|1|Ave Hourly Station Pressure|avg|hrly|hrly|mbar|njwx|
+147|1|Max Hourly Solar Radiation Rate|max|hrly|hrly|watt/m2|njwx|
+148|1|Min Hourly Solar Radiation Rate|min|hrly|hrly|watt/m2|njwx|
+149|1|Ave Hourly Solar Radiation Rate|avg|hrly|hrly|watt/m2|njwx|

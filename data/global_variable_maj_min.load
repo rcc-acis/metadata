@@ -338,7 +338,7 @@
 128|1|Hourly Ave. Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WSAVG_H|
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
 128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
-128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njxw|
+128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njwx|
 129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
 129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
 130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|

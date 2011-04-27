@@ -8,7 +8,6 @@
 1|9|Maximum Temperature|max|daily|daily|DegF|dsm:TMAX_24HR|
 1|10|Maximum Temperature|max|daily|daily|DegF|td3206:TMAX|
 1|11|Maximum Temperature|max|daily|daily|DegF|srcc:TX|
-1|12|Maximum Temperature|max|daily|daily|DegF|madis|
 1|13|Maximum Temperature|max|daily|daily|DegF|cli:TX|
 1|14|Maximum Temperature|max|daily|daily|DegF|td3210:TMAX|
 1|15|Maximum Temperature|max|daily|daily|DegF|td3205:TMAX|
@@ -26,7 +25,6 @@
 2|9|Minimum Temperature|min|daily|daily|DegF|dsm:TMIN_24HR|
 2|10|Minimum Temperature|min|daily|daily|DegF|td3206:TMIN|
 2|11|Minimum Temperature|min|daily|daily|DegF|srcc:TN|
-2|12|Minimum Temperature|min|daily|daily|DegF|madis|
 2|13|Minimum Temperature|min|daily|daily|DegF|cli:TN|
 2|14|Minimum Temperature|min|daily|daily|DegF|td3210:TMIN|
 2|15|Minimum Temperature|min|daily|daily|DegF|td3205:TMIN|
@@ -41,7 +39,6 @@
 3|6|Temperature at 2pm|inst|inst|daily|DegF|td3206:OT14|
 3|7|Temperature at 9pm|inst|inst|daily|DegF|td3206:OT21|
 3|11|Temperature at obs time|inst|inst|daily|DegF|srcc:TA|
-3|12|Temperature at obs time|inst|inst|daily|DegF|madis|
 4|1|Precipitation|sum|daily|daily|Inch|td3200:PRCP|
 4|2|Precipitation|sum|daily|daily|Inch|td3240|
 4|3|Precipitation|sum|daily|daily|Inch|metar|
@@ -52,7 +49,6 @@
 4|8|Precipitation|sum|daily|daily|Inch|dsm:PRCP_24HR|
 4|9|Precipitation|sum|daily|daily|Inch|td3206:PRCP|
 4|10|Precipitation|sum|daily|daily|Inch|srcc:PP|
-4|11|Precipitation|sum|daily|daily|Inch|madis|
 4|12|Precipitation|sum|daily|daily|Inch|cli:PP|
 4|13|Precipitation|sum|daily|daily|Inch|td3210:PRCP|
 4|14|Precipitation|sum|daily|daily|Inch|td3205:PRCP|
@@ -263,19 +259,6 @@
 86|1|Daily Normal Snowdepth 1971-2000|nrml inst|daily|daily|inch|td9641:D_30ME_SNWD|
 87|0|Daily sum of Day Range|sum|daily|daily||derived|
 88|1|Daily Cloudiness|ave|daily|daily|percent|td3206:SKYC|
-89|1|Wind gust direction|inst|inst|hrly|degrees|madis|
-90|1|Altimeter setting|inst|inst|sub-hrly|inch_Hg|madis|
-91|1|Station Pressure|inst|inst|sub-hrly|inch_Hg|madis|
-92|1|Sea level pressure|inst|inst|sub-hrly|inch_Hg|madis|
-93|1|Dew point temperature|inst|inst|sub-hrly|DegF|madis|
-94|1|Dry bulb Temperature|inst|inst|sub-hrly|DegF|madis|
-95|1|Relative Humidity|inst|inst|sub-hrly|percent|madis|
-96|1|Horizontal Visibility|inst|inst|sub-hrly|Miles|madis|
-97|1|Wind direction|inst|inst|sub-hrly|degrees|madis|
-98|1|Wind speed|inst|inst|sub-hrly|knot|madis|
-99|1|Wind gust|inst|hrly|sub-hrly|knots|madis|
-100|1|Wind gust direction|inst|inst|sub-hrly|degrees|madis|
-101|1|precipitation|sum|hrly|sub-hrly|Inch |madis|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|
 103|2|Daily soil moisture by impedance at 25 cm|avg|daily|daily|%|awdn|

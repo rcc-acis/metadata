@@ -147,6 +147,7 @@
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
 23|7|Hourly Temperature|inst|inst|hrly|DegC|njwx:temp|
+23|8|Hourly Temperature from 15min avg|inst|inst|hrly|DegC|newa:temp_hr|
 24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
 24|3|Relative Humidity|inst|inst|hrly|percent|metar|
 24|4|Relative Humidity|inst|inst|hrly|percent|metar_rt|
@@ -155,6 +156,7 @@
 24|7|Relative Humidity #2|inst|inst|hrly|percent|culog:SAMPLE_RH2_H|
 24|8|Relative Humidity from 15min|inst|inst|hrly|percent|culog:SAMPLE_RH_HD|
 24|9|Relative Humidity|inst|inst|hrly|percent|njwx:RH|
+24|10|Relative Humidity from 15min avg|inst|inst|hrly|percent|newa:RH_hr|
 25|2|Wet bulb Temperature|inst|inst|hrly|DegF|td3280:TMPW|
 25|3|Wet bulb Temperature|inst|inst|hrly|DegF|metar|
 25|4|Wet bulb Temperature|inst|inst|hrly|DegF|metar_rt|
@@ -303,7 +305,7 @@
 117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
 118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
 118|2|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|culog:LW_HD|
-118|3|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|newa:lw_hr|
+118|3|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|newa:LW_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
@@ -390,3 +392,4 @@
 158|1|Ave 15min Station Pressure|avg|15min|15min|inch_Hg|newa:pres_avg_15min|
 159|1|Max Daily Station Pressure|max|daily|daily|inch_Hg|newa:pres_max_24hr|
 160|1|Min Daily Station Pressure|min|daily|daily|inch_Hg|newa:pres_min_24hr|
+161|1|Max wind direction|max|15min|15min|degrees|newa:wdir_max_15min|

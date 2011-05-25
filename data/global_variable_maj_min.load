@@ -346,6 +346,7 @@
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
 128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
 128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njwx:wspd_avg|
+128|5|Hourly Ave. Wind Speed from 15min|avg|hrly|hrly|miles/hour|newa:wspd_avg_hr|
 129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
 129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
 130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|
@@ -393,3 +394,4 @@
 159|1|Max Daily Station Pressure|max|daily|daily|inch_Hg|newa:pres_max_24hr|
 160|1|Min Daily Station Pressure|min|daily|daily|inch_Hg|newa:pres_min_24hr|
 161|1|Max wind direction|max|15min|15min|degrees|newa:wdir_max_15min|
+162|1|Solar Radiation|sum|15min|15min|joule/m2|newa:rad_15min|

@@ -15,6 +15,7 @@
 14|srcc|SRCC Local Data||21|20030421|bnoon|
 15|dsm|Daily Summary Data||5|20030314|bnoon|
 16|TD3206|NWS Coop pre-1948||2|20030314|bnoon|
+17|ghcn|NCDC GHCN data||6|20110527|bnoon|
 52|td3205|MCC Coop pre-1948||2|20050808|bnoon|
 53|td3299|NWS Keyed data||2|20060207|bnoon|
 54|thrdx|ThreadEx data||9|20060215|bnoon|

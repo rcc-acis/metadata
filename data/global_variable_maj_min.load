@@ -16,6 +16,7 @@
 1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
 1|19|Maximum Temperature|max|daily|daily|DegF|newa:tx|
 1|20|Maximum Temperature 7am|max|daily|daily|DegF|newa:tx_am|
+1|21|Maximum Temperature|max|daily|daily|DegC|ghcn:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
@@ -34,6 +35,7 @@
 2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
 2|19|Minimum Temperature|min|daily|daily|DegF|newa:tx|
 2|20|Minimum Temperature 7am|min|daily|daily|DegF|newa:tx_am|
+2|21|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
@@ -59,6 +61,7 @@
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation 7am|sum|daily|daily|Inch|newa:prcp_am|
+4|20|Precipitation|sum|daily|daily|mm|ghcn:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch|metar_rt|
@@ -91,6 +94,7 @@
 10|14|Snowfall|sum|daily|daily|Inch|td3299:SNOW|
 10|15|Snowfall|sum|daily|daily|Inch|ThrdX|
 10|16|Snowfall|sum|daily|daily|Inch|td3298:SNOW|
+10|17|Snowfall|sum|daily|daily|mm|ghcn:SNOW|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
@@ -103,6 +107,7 @@
 11|12|Snow Depth at obs time|inst|inst|daily|Inch|td3205:SNWD|
 11|13|Snow Depth at obs time|inst|inst|daily|Inch|td3299:SNWD|
 11|14|Snow Depth at obs time|inst|inst|daily|Inch|ThrdX|
+11|15|Snow Depth at obs time|inst|inst|daily|mm|ghcn:SNWD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|

@@ -1,5 +1,5 @@
 1|01|01|AL|01|Northern Valley|07-17-2000|Robbins|
-2|02|01|AL|01|Appalachian Mountain|07-17-2000|Robbins|
+2|02|01|AL|01|Appalachian Mountains|09-17-2011|bnoon|
 3|03|01|AL|01|Upper Plains|07-17-2000|Robbins|
 4|04|01|AL|01|Eastern Valley|07-17-2000|Robbins|
 5|05|01|AL|01|Piedmont Plateau|07-17-2000|Robbins|
@@ -117,11 +117,11 @@
 117|01|23|ME|17|Northern|07-17-2000|Robbins|
 118|02|23|ME|17|Southern Interior|07-17-2000|Robbins|
 119|03|23|ME|17|Coastal|07-17-2000|Robbins|
-120|01|24|MD|18|Southeastern Shore|07-17-2000|Robbins|
+120|01|24|MD|18|Southern Eastern Shore|09-17-2011|bnoon|
 121|02|24|MD|18|Central Eastern Shore|07-17-2000|Robbins|
 122|03|24|MD|18|Lower Southern|07-17-2000|Robbins|
 123|04|24|MD|18|Upper Southern|07-17-2000|Robbins|
-124|05|24|MD|18|Northeastern Shore|07-17-2000|Robbins|
+124|05|24|MD|18|Northern Eastern Shore|09-17-2011|bnoon|
 125|06|24|MD|18|Northern Central|07-17-2000|Robbins|
 126|07|24|MD|18|Appalachian Mountain|07-17-2000|Robbins|
 127|08|24|MD|18|Allegheny Plateau|07-17-2000|Robbins|
@@ -260,7 +260,7 @@
 260|08|42|PA|36|South Central Mountains|07-17-2000|Robbins|
 261|09|42|PA|36|Southwest Plateau|07-17-2000|Robbins|
 262|10|42|PA|36|Northwest Plateau|07-17-2000|Robbins|
-263|01|44|RI|37|All|07-17-2000|Robbins|
+263|01|44|RI|37|Rhode Island|09-17-2011|bnoon|
 264|01|45|SC|38|Mountain|07-17-2000|Robbins|
 265|02|45|SC|38|Northwest|07-17-2000|Robbins|
 266|03|45|SC|38|North Central|07-17-2000|Robbins|
@@ -313,7 +313,7 @@
 313|04|53|WA|45|East Olympic Cascade Foothills|07-17-2000|Robbins|
 314|05|53|WA|45|Cascade Mountains West|07-17-2000|Robbins|
 315|06|53|WA|45|East Slope Cascades|07-17-2000|Robbins|
-316|07|53|WA|45|Okanogan Big Bend|07-17-2000|Robbins|
+316|07|53|WA|45|Okanogan-Big Bend|09-17-2011|bnoon|
 317|08|53|WA|45|Central Basin|07-17-2000|Robbins|
 318|09|53|WA|45|Northeastern|07-17-2000|Robbins|
 319|10|53|WA|45|Palouse Blue Mountains|07-17-2000|Robbins|
@@ -364,7 +364,7 @@
 364|05|72|PR|66|Eastern Interior|11-12-2003|KLE|
 365|06|72|PR|66|Western Interior|11-12-2003|KLE|
 366|07|72|PR|66|Outlying Islands|11-12-2003|KLE|
-367|01|78|VI|67|St. Thomasl|11-12-2003|KLE|
+367|01|78|VI|67|St. Thomas|09-17-2011|bnoon|
 368|02|78|VI|67|St. Croix|11-12-2003|KLE|
 369|03|78|VI|67|St. John|11-12-2003|KLE|
 370|04|15|HI|51|Island of Lanai|03-10-2008|bnoon|

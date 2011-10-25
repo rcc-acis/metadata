@@ -1,4 +1,5 @@
 1|1|Maximum Temperature|max|daily|daily|DegF|td3200:TMAX|
+1|2|Maximum Temperature|max|daily|daily|DegC|ghcn:TMAX|
 1|3|24 hour Maximum Temperature|max|daily|daily|DegF|metar|
 1|4|Maximum Temperature|max|daily|daily|DegF|shef:TX|
 1|5|Maximum Temperature|max|daily|daily|DegF|hcn:TMAX|
@@ -16,8 +17,8 @@
 1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
 1|19|Maximum Temperature|max|daily|daily|DegF|newa:tx|
 1|20|Maximum Temperature 7am|max|daily|daily|DegF|newa:tx_am|
-1|21|Maximum Temperature|max|daily|daily|DegC|ghcn:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
+2|2|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
 2|5|Minimum Temperature|min|daily|daily|DegF|hcn:TMIN|
@@ -35,16 +36,16 @@
 2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
 2|19|Minimum Temperature|min|daily|daily|DegF|newa:tx|
 2|20|Minimum Temperature 7am|min|daily|daily|DegF|newa:tx_am|
-2|21|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
+3|3|Temperature at obs time|inst|inst|daily|DegC|ghcn:TOBS|
 3|4|Temperature at obs time|inst|inst|daily|DegF|shef:TA|
 3|5|Temperature at 7am|inst|inst|daily|DegF|td3206:OT07|
 3|6|Temperature at 2pm|inst|inst|daily|DegF|td3206:OT14|
 3|7|Temperature at 9pm|inst|inst|daily|DegF|td3206:OT21|
 3|11|Temperature at obs time|inst|inst|daily|DegF|srcc:TA|
 4|1|Precipitation|sum|daily|daily|Inch|td3200:PRCP|
-4|2|Precipitation|sum|daily|daily|Inch|td3240|
+4|2|Precipitation|sum|daily|daily|mm|ghcn:PRCP|
 4|3|Precipitation|sum|daily|daily|Inch|metar|
 4|4|Precipitation|sum|daily|daily|Inch|shef:PP|
 4|5|Precipitation|sum|daily|daily|Inch|hcn:PRCP|
@@ -61,7 +62,6 @@
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation 7am|sum|daily|daily|Inch|newa:prcp_am|
-4|20|Precipitation|sum|daily|daily|mm|ghcn:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch|metar_rt|
@@ -81,6 +81,7 @@
 9|1|Maximum Temperature, evaporation pan|inst|inst|daily|DegF|td3200:MXPN|
 9|2|Maximum Temperature, evaporation pan|inst|inst|daily|DegF|td3206:MXPN|
 10|1|Snowfall|sum|daily|daily|Inch|td3200:SNOW|
+10|2|Snowfall|sum|daily|daily|mm|ghcn:SNOW|
 10|4|Snowfall|sum|daily|daily|Inch|shef:SF|
 10|5|Snowfall|sum|daily|daily|Inch|hcn:SNOW|
 10|6|Snowfall|sum|daily|daily|mm|awdn|
@@ -94,8 +95,8 @@
 10|14|Snowfall|sum|daily|daily|Inch|td3299:SNOW|
 10|15|Snowfall|sum|daily|daily|Inch|ThrdX|
 10|16|Snowfall|sum|daily|daily|Inch|td3298:SNOW|
-10|17|Snowfall|sum|daily|daily|mm|ghcn:SNOW|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
+11|2|Snow Depth at obs time|inst|inst|daily|mm|ghcn:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
 11|6|Snow Depth at obs time|inst|inst|daily|Inch|nrcc:SD|
@@ -107,14 +108,12 @@
 11|12|Snow Depth at obs time|inst|inst|daily|Inch|td3205:SNWD|
 11|13|Snow Depth at obs time|inst|inst|daily|Inch|td3299:SNWD|
 11|14|Snow Depth at obs time|inst|inst|daily|Inch|ThrdX|
-11|15|Snow Depth at obs time|inst|inst|daily|mm|ghcn:SNWD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|
-12|4|Avg Wind Speed|ave|daily|daily|mph|cli:AWND|
-12|5|Average Daily Wind Speed|sum|daily|daily|Miles|td3210:AWND|
 13|1|Water Equivalent of snow depth|inst|inst|daily|Inch|td3200:WTEQ|
 13|2|Water Equivalent of snow depth|inst|inst|daily|Inch|td3206:WTEQ|
+13|3|Water Equivalent of snow depth|inst|inst|daily|mm|ghcn:WESD|
 13|4|Water Equivalent of snow depth|inst|inst|daily|Inch|shef:SW|
 13|5|Water Equivalent of Snow on the Ground|inst|inst|daily|Inch|td3210:WTEQ|
 14|1|Minimum soil temperature|min|daily|daily|DegF|td3200:SNyz|
@@ -283,6 +282,10 @@
 86|1|Daily Normal Snowdepth 1971-2000|nrml inst|daily|daily|inch|td9641:D_30ME_SNWD|
 87|0|Daily sum of Day Range|sum|daily|daily||derived|
 88|1|Daily Cloudiness|ave|daily|daily|percent|td3206:SKYC|
+89|1|Average Daily Wind Speed|avg|daily|daily|mph|td3210:AWND|
+89|2|Average Daily Wind Speed|avg|daily|daily|m/s|ghcn:AWND|
+89|4|Avg Wind Speed|avg|daily|daily|mph|cli:AWND|
+90|1|Water Equivalent of snowfall|inst|inst|daily|mm|ghcn:WESF|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
 103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|

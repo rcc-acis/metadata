@@ -172,11 +172,13 @@
 27|4|Wind direction|inst|inst|hrly|degrees|metar_rt|
 27|5|Wind direction|inst|inst|hrly|degrees|newa:wdir|
 27|6|Wind direction|inst|inst|hrly|degrees|njwx:wdir|
+27|7|Wind direction from 15min avg|inst|inst|hrly|degrees|newa:wdir_15min|
 28|2|Wind speed|inst|inst|hrly|knot|td3280:WD16,WIND|
 28|3|Wind speed|inst|inst|hrly|knot|metar|
 28|4|Wind speed|inst|inst|hrly|knot|metar_rt|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
 28|6|Wind speed|inst|inst|hrly|m/sec|njwx:wspd|
+28|7|Wind speed from 15min avg|inst|inst|hrly|miles/hour|newa:wspd_15min|
 29|2|Cloud Coverage|inst|inst|hrly|fraction|td3280|
 29|3|Cloud Coverage|inst|inst|hrly|fraction|metar|
 29|4|Cloud Coverage|inst|inst|hrly|fraction|metar_rt|
@@ -354,11 +356,12 @@
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
 128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
 128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njwx:wspd_avg|
-128|5|Hourly Ave. Wind Speed from 15min|avg|hrly|hrly|miles/hour|newa:wspd_avg_hr|
+128|5|Hourly Ave. Wind Speed from 15min|avg|hrly|hrly|miles/hour|newa:wspd_15min|
 129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
 129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
 130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|
 130|2|Hourly Ave. Wind Direction 60 in.|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_60IN_H|
+130|3|Wind direction from 15 min avg|avg|hrly|hrly|degrees|newa:wdir_15min|
 131|1|Hourly Std. Dev. Wind Direction 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_H|
 131|2|Hourly Std. Dev. Wind Direction 60 in.|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_60IN_H|
 131|3|Hourly Std. Dev. Wind Direction-Yamartino 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEVY_H|

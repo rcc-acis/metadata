@@ -288,6 +288,14 @@
 89|2|Average Daily Wind Speed|avg|daily|daily|m/s|ghcn:AWND|
 89|4|Avg Wind Speed|avg|daily|daily|mph|cli:AWND|
 90|1|Water Equivalent of snowfall|inst|inst|daily|mm|ghcn:WESF|
+91|0|Monthly Average Max Temperature|avg|daily|monthly|degF||
+92|0|Monthly Average Min Temperature|avg|daily|monthly|degF||
+93|0|Monthly Average Mean Dewpoint|avg|daily|monthly|degF||
+94|0|Monthly Total Preciptation|sum|monthly|monthly|Inch||
+95|0|Annual Average Max Temperature|avg|monthly|yearly|degF||
+96|0|Annual Average Min Temperature|avg|monthly|yearly|degF||
+97|0|Annual Average Mean Dewpoint|avg|monthly|yearly|degF||
+98|0|Annual Total Preciptation|sum|monthly|yearly|Inch||
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
 103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|

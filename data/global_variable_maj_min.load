@@ -77,6 +77,7 @@
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
 7|1|Evaporation|sum|daily|daily|Inch|td3200:EVAP|
 7|2|Evaporation|sum|daily|daily|Inch|td3206:EVAP|
+7|3|Evaporation|sum|daily|daily|mm|ghcn:EVAP|
 8|1|Minimum Temperature, evaporation pan|inst|inst|daily|DegF|td3200:MNPN|
 8|2|Minimum Temperature, evaporation pan|inst|inst|daily|DegF|td3206:MNPN|
 9|1|Maximum Temperature, evaporation pan|inst|inst|daily|DegF|td3200:MXPN|
@@ -112,6 +113,7 @@
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|
+12|4|Wind Movement|sum|daily|daily|km|ghcn:WDMV|
 13|1|Water Equivalent of snow depth|inst|inst|daily|Inch|td3200:WTEQ|
 13|2|Water Equivalent of snow depth|inst|inst|daily|Inch|td3206:WTEQ|
 13|3|Water Equivalent of snow depth|inst|inst|daily|mm|ghcn:WESD|

@@ -305,6 +305,8 @@
 96|0|Annual Average Min Temperature|avg|monthly|yearly|degF||
 97|0|Annual Average Mean Dewpoint|avg|monthly|yearly|degF||
 98|0|Annual Total Preciptation|sum|monthly|yearly|Inch||
+99|0|Monthly Average Mean Temperature|avg|daily|monthly|degF||
+100|0|Annual Average Mean Temperature|avg|monthly|yearly|degF||
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
 103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|

@@ -17,6 +17,7 @@
 1|18|Maximum Temperature|max|daily|daily|DegF|td3298:TMAX|
 1|19|Maximum Temperature|max|daily|daily|DegF|newa:tx|
 1|20|Maximum Temperature from 5min|max|daily|daily|degC|deos:temp_max_dy|
+1|21|Maximum Temperature|max|daily|daily|DegF|cf6:TX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|2|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
@@ -36,6 +37,7 @@
 2|18|Minimum Temperature|min|daily|daily|DegF|td3298:TMIN|
 2|19|Minimum Temperature|min|daily|daily|DegF|newa:tx|
 2|20|Minimum Temperature from 5min|min|daily|daily|degC|deos:temp_min_dy|
+2|21|Minimum Temperature|min|daily|daily|DegF|cf6:TN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|3|Temperature at obs time|inst|inst|daily|DegC|ghcn:TOBS|
@@ -62,6 +64,7 @@
 4|17|Precipitation|sum|daily|daily|Inch|td3298:PRCP|
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation from 5min|sum|daily|daily|mm|deos:prcp_dy|
+4|20|Precipitation|sum|daily|daily|Inch|cf6:PP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
 5|4|Hourly precipitation|sum|hrly|hrly|Inch|metar_rt|
@@ -97,6 +100,7 @@
 10|14|Snowfall|sum|daily|daily|Inch|td3299:SNOW|
 10|15|Snowfall|sum|daily|daily|Inch|ThrdX|
 10|16|Snowfall|sum|daily|daily|Inch|td3298:SNOW|
+10|17|Snowfall|sum|daily|daily|Inch|cf6:SF|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|td3200:SNWD|
 11|2|Snow Depth at obs time|inst|inst|daily|mm|ghcn:SNWD|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
@@ -110,6 +114,7 @@
 11|12|Snow Depth at obs time|inst|inst|daily|Inch|td3205:SNWD|
 11|13|Snow Depth at obs time|inst|inst|daily|Inch|td3299:SNWD|
 11|14|Snow Depth at obs time|inst|inst|daily|Inch|ThrdX|
+11|15|Snow Depth at obs time|inst|inst|daily|Inch|cf6:SD|
 12|1|Wind Movement|sum|daily|daily|Miles|td3200:WDMV|
 12|2|Avg Wind Speed 3 meter|ave|daily|daily|mph|awdn|
 12|3|Wind Movement|sum|daily|daily|Miles|td3206:WDMV|
@@ -261,17 +266,20 @@
 70|3|Daily Solar Radiation|sum|daily|daily|joule/m2|newa:rad_24hr|
 71|1|Avg Relative Humidity|ave|daily|daily|percent|awdn|
 71|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
+71|3|Avg Relative Humidity|ave|daily|daily|percent|cf6:AVRH|
 72|1|Evapotranspiration NE|sum|daily|daily|inch|awdn|
 73|1|Max Relative Humidity|max|daily|daily|percent|awdn|
 73|2|Max Relative Humidity|max|daily|daily|percent|cli:MXRH|
 73|3|Maximum Relative Humidity|max|daily|daily|percent|td3210:MXRH|
 73|4|Max Relative Humidity from 15min|max|daily|daily|percent|newa:RH_max_24hr|
 73|5|Max Relative Humidity from 15min|max|daily|daily|percent|newa:RH_max_7am|
+73|6|Max Relative Humidity|max|daily|daily|percent|cf6:MXRH|
 74|1|Min Relative Humidity|min|daily|daily|percent|awdn|
 74|2|Min Relative Humidity|min|daily|daily|percent|cli:MNRH|
 74|3|Minimum Relative Humidity|min|daily|daily|percent|td3210:MNRH|
 74|4|Min Relative Humidity from 15min|min|daily|daily|percent|newa:RH_min_24hr|
 74|5|Min Relative Humidity from 15min|min|daily|daily|percent|newa:RH_min_7am|
+74|6|Min Relative Humidity|min|daily|daily|percent|cf6:MNRH|
 75|1|Leaf Wetness Percent of Day||daily|daily|percent|awdn|
 75|2|Leaf Wetness Percent of Day|sum|daily|daily|percent|newa:LW_24hr|
 76|1|Max Wind Speed  1 Min 3 meter|max|1 minute|daily|m/s|awdn|
@@ -279,6 +287,7 @@
 77|1|Max Wind Gust 5 Sec 3 meter|max|5 second|daily|m/s|awdn|
 77|2|peak wind speed 5 Sec 10 meter|max|5 second|daily|mph|cli:PKWS|
 77|3|peak wind speed|max|15 min|daily|mph|newa:wspd_max_24hr|
+77|4|peak wind speed 5 Sec 10 meter|max|5 second|daily|mph|cf6:PKWS|
 78|1|Avg Wind Vector Dir 3 meter|ave|daily|daily|deg|awdn|
 78|2|Avg Wind Vector Dir 3 meter|ave|daily|daily|deg|td3206:PWND|
 79|1|Wind Vector Std Dev 3 meter||daily|daily|deg|awdn|
@@ -296,6 +305,7 @@
 89|1|Average Daily Wind Speed|avg|daily|daily|mph|td3210:AWND|
 89|2|Average Daily Wind Speed|avg|daily|daily|m/s|ghcn:AWND|
 89|4|Avg Wind Speed|avg|daily|daily|mph|cli:AWND|
+89|5|Avg Wind Speed|avg|daily|daily|mph|cf6:AWND|
 90|1|Water Equivalent of snowfall|inst|inst|daily|mm|ghcn:WESF|
 91|0|Monthly Average Max Temperature|avg|daily|monthly|degF||
 92|0|Monthly Average Min Temperature|avg|daily|monthly|degF||
@@ -309,6 +319,7 @@
 100|0|Annual Average Mean Temperature|avg|monthly|yearly|degF||
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
+102|3|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cf6:PKWD|
 103|1|Daily soil moisture by impedance at 10 cm|avg|daily|daily|%|awdn|
 103|2|Daily soil moisture by impedance at 25 cm|avg|daily|daily|%|awdn|
 103|3|Daily soil moisture by impedance at 50 cm|avg|daily|daily|%|awdn|

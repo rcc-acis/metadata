@@ -18,6 +18,7 @@
 1|19|Maximum Temperature|max|daily|daily|DegF|newa:tx|
 1|20|Maximum Temperature from 5min|max|daily|daily|degC|deos:temp_max_dy|
 1|21|Maximum Temperature|max|daily|daily|DegF|cf6:TX|
+1|22|Maximum Temperature|max|daily|daily|DegF|mowx:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|2|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
@@ -38,6 +39,7 @@
 2|19|Minimum Temperature|min|daily|daily|DegF|newa:tx|
 2|20|Minimum Temperature from 5min|min|daily|daily|degC|deos:temp_min_dy|
 2|21|Minimum Temperature|min|daily|daily|DegF|cf6:TN|
+2|22|Minimum Temperature|min|daily|daily|DegF|mowx:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|td3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|td3206:TOBS|
 3|3|Temperature at obs time|inst|inst|daily|DegC|ghcn:TOBS|
@@ -264,6 +266,7 @@
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|
 70|2|Total Rad Horizontal Surface|sum|daily|daily|MJ/m2|awdn|
 70|3|Daily Solar Radiation|sum|daily|daily|joule/m2|newa:rad_24hr|
+70|4|Daily Solar Radiation|sum|daily|daily|MJ/m2|mowx:SRAD|
 71|1|Avg Relative Humidity|ave|daily|daily|percent|awdn|
 71|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
 71|3|Avg Relative Humidity|ave|daily|daily|percent|cf6:AVRH|
@@ -342,11 +345,13 @@
 115|1|Minimum Daily Temperature|min|daily|hrly|DegF|shef:TN|
 116|1|Average Daily Temperature|ave|daily|daily|DegF|td3206:TAVG|
 116|2|Average Daily Temperature|ave|daily|daily|DegF|td3298:TAVG|
+116|3|Average Daily Temperature|ave|daily|daily|DegF|mowx:TAVG|
 117|1|Temperature Range|range|daily|daily|DegF|td3206:TRNG|
 118|1|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|newa:LW|
 118|2|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|culog:LW_HD|
 118|3|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|newa:LW_hr|
 118|4|Leaf Wetness Fraction of Hour from 5min|sum|hrly|hrly|minutes|deos:LW_hr|
+118|5|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|njwx:LW|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|

@@ -406,6 +406,7 @@
 132|4|Hourly Solar radiation from 15min|sum|hrly|hrly|langley|culog:SOLARRAD_HD|
 132|5|Hourly Solar radiation|sum|hrly|hrly|joule/m2|njwx:rad_tot|
 132|6|Hourly Solar radiation from 15min|sum|hrly|hrly|joule/m2|newa:rad_hr|
+132|7|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|deos:rad_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|

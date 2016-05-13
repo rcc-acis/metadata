@@ -77,6 +77,7 @@
 5|9|Hourly precipitation from 15min|sum|hrly|hrly|Inch|culog:PRCP_HD|
 5|10|Hourly precipitation from 15min|sum|hrly|hrly|Inch|newa:prec_hr|
 5|11|Hourly precipitation from 5min|sum|hrly|hrly|mm|deos:prec_hr|
+5|12|Hourly precipitation|sum|hrly|hrly|mm|miwx:prec_hr|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -352,6 +353,7 @@
 118|3|Leaf Wetness Fraction of Hour from 15min|sum|hrly|hrly|minutes|newa:LW_hr|
 118|4|Leaf Wetness Fraction of Hour from 5min|sum|hrly|hrly|minutes|deos:LW_hr|
 118|5|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|njwx:LW|
+118|6|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|miwx:LW_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
@@ -387,6 +389,7 @@
 126|4|Average Hourly 60 in. Temperature from 15min|ave|hrly|hrly|degC|culog:TAVG_HD|
 126|5|Average Hourly Temperature|ave|hrly|hrly|degC|njwx:temp_avg|
 126|6|Average Hourly Temperature from 15min|ave|hrly|hrly|degF|newa:temp_avg_hr|
+126|7|Average Hourly Temperature|ave|hrly|hrly|degC|miwx:temp_avg_hr|
 127|1|Hourly Cumulative Precipitation|inst|inst|hrly|inch|culog:PRCP_WEIGHT_H|
 128|1|Hourly Ave. Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WSAVG_H|
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
@@ -407,6 +410,7 @@
 132|5|Hourly Solar radiation|sum|hrly|hrly|joule/m2|njwx:rad_tot|
 132|6|Hourly Solar radiation from 15min|sum|hrly|hrly|joule/m2|newa:rad_hr|
 132|7|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|deos:rad_hr|
+132|8|Hourly Solar radiation|sum|hrly|hrly|joule/m2|miwx:rad_tot_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
@@ -421,6 +425,7 @@
 142|2|Min Hourly Relative Humidity from 15min|min|hrly|hrly|percent|newa:RH_min_hr|
 143|1|Ave Hourly Relative Humidity|avg|hrly|hrly|percent|njwx:RH_avg|
 143|2|Ave Hourly Relative Humidity from 15min|avg|hrly|hrly|percent|newa:RH_avg_hr|
+143|3|Ave Hourly Relative Humidity|avg|hrly|hrly|percent|miwx:RH_avg_hr|
 144|1|Max Hourly Station Pressure|max|hrly|hrly|mbar|njwx:pres_max|
 144|2|Max Hourly Station Pressure from 15min|max|hrly|hrly|inch_Hg|newa:pres_max_hr|
 145|1|Min Hourly Station Pressure|min|hrly|hrly|mbar|njwx:pres_min|

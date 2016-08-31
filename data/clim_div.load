@@ -342,15 +342,6 @@
 342|08|56|WY|48|Lower Platte|07-17-2000|Robbins|
 343|09|56|WY|48|Wind River|07-17-2000|Robbins|
 344|10|56|WY|48|Upper Platte|07-17-2000|Robbins|
-345|01|02|AK|50|Southeastern|03-01-2001|Busler|
-346|02|02|AK|50|South Coast|03-01-2001|Busler|
-347|03|02|AK|50|Southwestern Islands|03-01-2001|Busler|
-348|04|02|AK|50|Copper River|03-01-2001|Busler|
-349|05|02|AK|50|Cook Inlet|03-01-2001|Busler|
-350|06|02|AK|50|Bristol Bay|03-01-2001|Busler|
-351|07|02|AK|50|West Central|03-01-2001|Busler|
-352|08|02|AK|50|Interior Basin|03-01-2001|Busler|
-353|09|02|AK|50|Arctic Drainage|03-01-2001|Busler|
 354|01|15|HI|51|Island of Kauai|03-01-2001|Busler|
 355|02|15|HI|51|Island of Oahu|03-01-2001|Busler|
 356|03|15|HI|51|Island of Molokai|03-01-2001|Busler|
@@ -371,3 +362,16 @@
 371|02|60|PI|91|East of 180th Meridian|03-25-2004|KLE|
 372|03|66|PI|91|Western Pacific Islands|03-25-2004|KLE|
 373|04|69|PI|91|Caroline and Mariana Islands|03-25-2004|KLE|
+374|01|02|AK|50|North Slope|20160831|bnoon|
+375|02|02|AK|50|West Coast|20160831|bnoon|
+376|03|02|AK|50|Central Interior|20160831|bnoon|
+377|04|02|AK|50|Northeast Interior|20160831|bnoon|
+378|05|02|AK|50|Southeast Interior|20160831|bnoon|
+379|06|02|AK|50|Cook Inlet|20160831|bnoon|
+380|07|02|AK|50|Bristol Bay|20160831|bnoon|
+381|08|02|AK|50|Northwest Gulf|20160831|bnoon|
+382|09|02|AK|50|Northeast Gulf|20160831|bnoon|
+383|10|02|AK|50|North Panhandle|20160831|bnoon|
+384|11|02|AK|50|Central Panhandle|20160831|bnoon|
+385|12|02|AK|50|South Panhandle|20160831|bnoon|
+386|13|02|AK|50|Aleutians|20160831|bnoon|

@@ -20,6 +20,7 @@
 19|cf6|CF-6 Data|Climate Summary Data Realtime|5|20140306|bnoon|
 20|mowx|MOWX data|Missouri Mesonet|12|20140730|stoecker|
 21|miwx|Michgan AgWeatherNet||13|20160512|bnoon|
+22|cadx|CA stn indices|California Station Indices CA DWR||20170207|bdaudert|
 52|td3205|MCC Coop pre-1948||2|20050808|bnoon|
 53|td3299|NWS Keyed data||2|20060207|bnoon|
 54|thrdx|ThreadEx data||9|20060215|bnoon|

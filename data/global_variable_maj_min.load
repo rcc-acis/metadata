@@ -67,6 +67,7 @@
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation from 5min|sum|daily|daily|mm|deos:prcp_dy|
 4|20|Precipitation|sum|daily|daily|Inch|cf6:PP|
+4|21|Precipitation|sum|daily|daily|Inch|cadx:pcpn|
 5|1|Hourly precipitation|sum|hrly|hrly|Inch|metar:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|

@@ -1,6 +1,6 @@
 1|1|Maximum Temperature|max|daily|daily|DegF|td3200:TMAX|
 1|2|Maximum Temperature|max|daily|daily|DegC|ghcn:TMAX|
-1|3|24 hour Maximum Temperature|max|daily|daily|DegF|metar|
+1|3|24 hour Maximum Temperature|max|daily|daily|DegF|metar:TMAX_24HR|
 1|4|Maximum Temperature|max|daily|daily|DegF|shef:TX|
 1|5|Maximum Temperature|max|daily|daily|DegF|hcn:TMAX|
 1|6|Max Air Temp|max|daily|daily|degF|awdn|
@@ -21,7 +21,7 @@
 1|22|Maximum Temperature|max|daily|daily|DegF|mowx:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|td3200:TMIN|
 2|2|Minimum Temperature|min|daily|daily|DegC|ghcn:TMIN|
-2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar|
+2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar:TMIN_24HR|
 2|4|Minimum Temperature|min|daily|daily|DegF|shef:TN|
 2|5|Minimum Temperature|min|daily|daily|DegF|hcn:TMIN|
 2|6|Min Air Temp|min|daily|daily|degF|awdn|
@@ -50,7 +50,7 @@
 3|11|Temperature at obs time|inst|inst|daily|DegF|srcc:TA|
 4|1|Precipitation|sum|daily|daily|Inch|td3200:PRCP|
 4|2|Precipitation|sum|daily|daily|mm|ghcn:PRCP|
-4|3|Precipitation|sum|daily|daily|Inch|metar|
+4|3|Precipitation|sum|daily|daily|Inch|metar:PRCP_24HR|
 4|4|Precipitation|sum|daily|daily|Inch|shef:PP|
 4|5|Precipitation|sum|daily|daily|Inch|hcn:PRCP|
 4|6|Precipitation|sum|daily|daily|Inch|awdn|
@@ -67,9 +67,8 @@
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation from 5min|sum|daily|daily|mm|deos:prcp_dy|
 4|20|Precipitation|sum|daily|daily|Inch|cf6:PP|
+5|1|Hourly precipitation|sum|hrly|hrly|Inch|metar:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
-5|3|Hourly precipitation|sum|hrly|hrly|Inch|metar|
-5|4|Hourly precipitation|sum|hrly|hrly|Inch|metar_rt|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|
 5|6|Hourly precipitation|sum|hrly|hrly|Inch|newa:prec|
 5|7|Hourly precipitation|sum|hrly|hrly|Inch|culog:PRCP_H|
@@ -127,6 +126,7 @@
 13|3|Water Equivalent of snow depth|inst|inst|daily|mm|ghcn:WESD|
 13|4|Water Equivalent of snow depth|inst|inst|daily|Inch|shef:SW|
 13|5|Water Equivalent of Snow on the Ground|inst|inst|daily|Inch|td3210:WTEQ|
+13|6|Water Equivalent of Snow depth|inst|inst|daily|Inch|metar:SNWTEQ|
 14|1|Minimum soil temperature|min|daily|daily|DegF|td3200:SNyz|
 14|274|Min Soil Temp at 10cm Bare Soil|min|daily|daily|degC|awdn|
 14|146|Min Soil Temp at 5cm Bare Soil|min|daily|daily|degC|awdn|
@@ -134,41 +134,25 @@
 15|274|Max Soil Temp at 10cm Bare Soil|max|daily|daily|degC|awdn|
 15|146|Max Soil Temp at 5cm Bare Soil|max|daily|daily|degC|awdn|
 16|1|Soil temperature at obs time|inst|inst|daily|DegF|td3200:SOyz|
-17|2|Altimeter setting|inst|inst|hrly|inch_Hg|td3280:ALTP|
-17|3|Altimeter setting|inst|inst|hrly|inch_Hg|metar|
-17|4|Altimeter setting|inst|inst|hrly|inch_Hg|metar_rt|
-18|2|Station Pressure|inst|inst|hrly|inch_Hg|td3280:PRES|
-18|3|Station Pressure|inst|inst|hrly|inch_Hg|metar|
-18|4|Station Pressure|inst|inst|hrly|inch_Hg|metar_rt|
+17|1|Altimeter setting|inst|inst|hrly|inch_Hg|metar:ALTP|
+18|1|Station Pressure|inst|inst|hrly|inch_Hg|metar:STN_PRES|
 18|5|Station Pressure|inst|inst|hrly|mbar|njwx:pres|
 18|6|Station Pressure|inst|inst|hrly|mbar|newa:pres|
 18|7|Station Pressure from 5min|inst|inst|hrly|mbar|deos:pres_hr|
-19|2|Sea level pressure|inst|inst|hrly|inch_Hg|td3280:SLVP|
-19|3|Sea level pressure|inst|inst|hrly|inch_Hg|metar|
-19|4|Sea level pressure|inst|inst|hrly|inch_Hg|metar_rt|
-20|2|Present Weather|inst|inst|hrly||td3280:PWTH|
-20|3|Present Weather|inst|inst|hrly||metar|
-20|4|Present Weather|inst|inst|hrly||metar_rt|
-21|2|Weather in the Vicinity|inst|inst|hrly||td3280:PWVC|
-21|3|Weather in the Vicinity|inst|inst|hrly||metar|
-21|4|Weather in the Vicinity|inst|inst|hrly||metar_rt|
-22|2|Dew point temperature|inst|inst|hrly|DegF|td3280:DPTC,DPTP|
-22|3|Dew point temperature|inst|inst|hrly|DegF|metar|
-22|4|Dew point temperature|inst|inst|hrly|DegF|metar_rt|
+19|1|Sea level pressure|inst|inst|hrly|inch_Hg|metar:SL_PRES|
+20|1|Present Weather|inst|inst|hrly||metar:STN_WX|
+21|1|Weather in the Vicinity|inst|inst|hrly||metar:VIC_WX|
+22|1|Dew point temperature|inst|inst|hrly|DegF|metar:DEWPT|
 22|5|Dew point temperature|inst|inst|hrly|DegF|newa:dewpt|
 22|6|Dew point temperature|inst|inst|hrly|DegC|njwx:dewpt|
 22|7|Dew point temperature from 5min|inst|inst|hrly|DegC|deos:dewpt_hr|
-23|2|Dry bulb Temperature|inst|inst|hrly|DegF|td3280:TMPD,TMCD|
-23|3|Dry bulb Temperature|inst|inst|hrly|DegF|metar|
-23|4|Dry bulb Temperature|inst|inst|hrly|DegF|metar_rt|
+23|1|Dry bulb Temperature|inst|inst|hrly|DegF|metar:TEMP|
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
 23|7|Hourly Temperature|inst|inst|hrly|DegC|njwx:temp|
 23|8|Hourly Temperature from 15min avg|inst|inst|hrly|DegC|newa:temp_hr|
 23|9|Hourly Temperature from 5min|inst|inst|hrly|DegC|deos:temp_hr|
-24|2|Relative Humidity|inst|inst|hrly|percent|td3280:RHUM|
-24|3|Relative Humidity|inst|inst|hrly|percent|metar|
-24|4|Relative Humidity|inst|inst|hrly|percent|metar_rt|
+24|1|Relative Humidity|inst|inst|hrly|percent|metar:RH|
 24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
 24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|
 24|7|Relative Humidity #2|inst|inst|hrly|percent|culog:SAMPLE_RH2_H|
@@ -176,57 +160,33 @@
 24|9|Relative Humidity|inst|inst|hrly|percent|njwx:RH|
 24|10|Relative Humidity from 15min avg|inst|inst|hrly|percent|newa:RH_hr|
 24|11|Relative Humidity from 5min|inst|inst|hrly|percent|deos:RH_hr|
-25|2|Wet bulb Temperature|inst|inst|hrly|DegF|td3280:TMPW|
-25|3|Wet bulb Temperature|inst|inst|hrly|DegF|metar|
-25|4|Wet bulb Temperature|inst|inst|hrly|DegF|metar_rt|
-26|2|Horizontal Visibility|inst|inst|hrly|Miles|td3280:HZVS|
-26|3|Horizontal Visibility|inst|inst|hrly|Miles|metar|
-26|4|Horizontal Visibility|inst|inst|hrly|Miles|metar_rt|
-27|2|Wind direction|inst|inst|hrly|degrees|td3280:WD16,WIND|
-27|3|Wind direction|inst|inst|hrly|degrees|metar|
-27|4|Wind direction|inst|inst|hrly|degrees|metar_rt|
+25|1|Wet bulb Temperature|inst|inst|hrly|DegF|metar:WB_TEMP|
+26|1|Horizontal Visibility|inst|inst|hrly|Miles|metar:HOR_VIS|
+27|1|Wind direction|inst|inst|hrly|degrees|metar:WIND_DIR|
 27|5|Wind direction|inst|inst|hrly|degrees|newa:wdir|
 27|6|Wind direction|inst|inst|hrly|degrees|njwx:wdir|
 27|7|Wind direction from 15min avg|inst|inst|hrly|degrees|newa:wdir_hr|
 27|8|Wind direction from 5min|inst|inst|hrly|degrees|deos:wdir_hr|
-28|2|Wind speed|inst|inst|hrly|knot|td3280:WD16,WIND|
-28|3|Wind speed|inst|inst|hrly|knot|metar|
-28|4|Wind speed|inst|inst|hrly|knot|metar_rt|
+28|1|Wind speed|inst|inst|hrly|knot|metar:WIND_SPD|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
 28|6|Wind speed|inst|inst|hrly|m/sec|njwx:wspd|
 28|7|Wind speed from 15min avg|inst|inst|hrly|miles/hour|newa:wspd_hr|
 28|8|Wind speed from 5min|inst|inst|hrly|m/sec|deos:wspd_hr|
-29|2|Cloud Coverage|inst|inst|hrly|fraction|td3280|
-29|3|Cloud Coverage|inst|inst|hrly|fraction|metar|
-29|4|Cloud Coverage|inst|inst|hrly|fraction|metar_rt|
-30|2|Cloud Condition|inst|inst|hrly||td3280|
-30|3|Cloud Condition|inst|inst|hrly||metar|
-30|4|Cloud Condition|inst|inst|hrly||metar_rt|
-31|2|Cloud Height|inst|inst|hrly|feet|td3280|
-31|3|Cloud Height|inst|inst|hrly|feet|metar|
-31|4|Cloud Height|inst|inst|hrly|feet|metar_rt|
-32|2|Cloud Type|inst|inst|hrly||td3280|
-32|3|Cloud Type|inst|inst|hrly||metar|
-32|4|Cloud Type|inst|inst|hrly||metar_rt|
-33|2|Total sky cover|inst|inst|hrly|fraction|td3280|
-33|3|Total sky cover|inst|inst|hrly|fraction|metar|
-33|4|Total sky cover|inst|inst|hrly|fraction|metar_rt|
-34|2|Total opaque sky cover|inst|inst|hrly|fraction|td3280|
-34|3|Total opaque sky cover|inst|inst|hrly|fraction|metar|
-34|4|Total opaque sky cover|inst|inst|hrly|fraction|metar_rt|
-35|2|Ceiling height|inst|inst|hrly|feet|td3280|
-35|3|Ceiling height|inst|inst|hrly|feet|metar|
-35|4|Ceiling height|inst|inst|hrly|feet|metar_rt|
-36|3|3-hour precipitation|sum|3 hr|3 hrly|in|metar|
-37|3|6-hour precipitation|sum|6 hr|6 hrly|in|metar|
-38|3|6-hourly snow depth|inst|6 hr|6 hrly|in|metar|
-39|3|6-hourly maximum temperature|max|6 hr|6 hrly|DegF|metar|
-40|3|6-hourly minimum temperature|min|6 hr|6 hrly|DegF|metar|
-41|3|peak wind direction|max|hrly|hrly|degrees|metar|
-41|4|peak wind direction|max|hrly|hrly|degrees|metar_rt|
+29|1|Cloud Coverage|inst|inst|hrly|fraction|metar:CLD_COV|
+30|1|Cloud Condition|inst|inst|hrly||metar:CLD_COND|
+31|1|Cloud Height|inst|inst|hrly|feet|metar:CLD_HGT|
+32|1|Cloud Type|inst|inst|hrly||metar:CLD_COND|
+33|1|Total sky cover|inst|inst|hrly|fraction|metar:TSKC|
+34|1|Total opaque sky cover|inst|inst|hrly|fraction|metar:TSKC_OPAQ|
+35|1|Ceiling height|inst|inst|hrly|feet|metar:CEIL_HGT|
+36|1|3-hour precipitation|sum|3 hr|3 hrly|in|metar:PRCP_3HR|
+37|1|6-hour precipitation|sum|6 hr|6 hrly|in|metar:PRCP_6HR|
+38|1|6-hourly snow depth|inst|6 hr|6 hrly|in|metar:SNWD|
+39|1|6-hourly maximum temperature|max|6 hr|6 hrly|DegF|metar:TMAX_6HR|
+40|1|6-hourly minimum temperature|min|6 hr|6 hrly|DegF|metar:TMIN_6HR|
+41|1|peak wind direction|max|hrly|hrly|degrees|metar:PK_WIND_DIR|
 41|5|peak wind direction|max|hrly|hrly|degrees|njwx:wdir_max|
-42|2|peak wind speed|max|hrly|hrly|knots|metar_rt|
-42|3|peak wind speed|max|hrly|hrly|knots|metar|
+42|1|peak wind speed|max|hrly|hrly|knots|metar:PK_WIND_SPD|
 42|4|Hourly Max. 10-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_10SEC_H|
 42|5|Hourly Max. 30-second Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_30SEC_H|
 42|6|Hourly Max. 1-minute Wind Speed 10 meter|max|hrly|hrly|miles/hour|culog:WSMAX_1MIN_H|
@@ -301,8 +261,7 @@
 83|1|Net Rad MJ|sum|daily|daily|MJ/m2|awdn|
 84|1|Accumulated Hours Over 10c/50F|sum|daily|daily|hour|awdn|
 84|1|Accumulated Hours Over 4c/40F|sum|daily|daily|hour|awdn|
-85|3|Wind gust|inst|inst|hrly|knots|metar|
-85|4|Wind gust|inst|inst|hrly|knots|metar_rt|
+85|1|Wind gust|inst|inst|hrly|knots|metar:WIND_GUST|
 86|1|Daily Normal Snowdepth 1971-2000|nrml inst|daily|daily|inch|td9641:D_30ME_SNWD|
 87|0|Daily sum of Day Range|sum|daily|daily||derived|
 88|1|Daily Cloudiness|ave|daily|daily|percent|td3206:SKYC|

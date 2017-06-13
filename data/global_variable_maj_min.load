@@ -78,6 +78,7 @@
 5|10|Hourly precipitation from 15min|sum|hrly|hrly|Inch|newa:prec_hr|
 5|11|Hourly precipitation from 5min|sum|hrly|hrly|mm|deos:prec_hr|
 5|12|Hourly precipitation|sum|hrly|hrly|mm|miwx:prec_hr|
+5|13|Hourly precipitation from sub-hourly|sum|hrly|hrly|cm|oardc:prec_hr|
 6|1|Daily Occurrences of Weather|sum|daily|daily||td3200:DYSW|
 6|2|Weather|sum|daily|daily||td3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||td3210:DYSW|
@@ -153,6 +154,7 @@
 23|7|Hourly Temperature|inst|inst|hrly|DegC|njwx:temp|
 23|8|Hourly Temperature from 15min avg|inst|inst|hrly|DegC|newa:temp_hr|
 23|9|Hourly Temperature from 5min|inst|inst|hrly|DegC|deos:temp_hr|
+23|10|Hourly Temperature from sub-hrly|inst|inst|hrly|DegC|oardc:temp_hr|
 24|1|Relative Humidity|inst|inst|hrly|percent|metar:RH|
 24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
 24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|
@@ -161,6 +163,7 @@
 24|9|Relative Humidity|inst|inst|hrly|percent|njwx:RH|
 24|10|Relative Humidity from 15min avg|inst|inst|hrly|percent|newa:RH_hr|
 24|11|Relative Humidity from 5min|inst|inst|hrly|percent|deos:RH_hr|
+24|12|Relative Humidity from sub-hrly|inst|inst|hrly|percent|oardc:RH_hr|
 25|1|Wet bulb Temperature|inst|inst|hrly|DegF|metar:WB_TEMP|
 26|1|Horizontal Visibility|inst|inst|hrly|Miles|metar:HOR_VIS|
 27|1|Wind direction|inst|inst|hrly|degrees|metar:WIND_DIR|
@@ -173,6 +176,7 @@
 28|6|Wind speed|inst|inst|hrly|m/sec|njwx:wspd|
 28|7|Wind speed from 15min avg|inst|inst|hrly|miles/hour|newa:wspd_hr|
 28|8|Wind speed from 5min|inst|inst|hrly|m/sec|deos:wspd_hr|
+28|9|Wind speed from sub-hrly|inst|inst|hrly|m/sec|oardc:wspd_hr|
 29|1|Cloud Coverage|inst|inst|hrly|fraction|metar:CLD_COV|
 30|1|Cloud Condition|inst|inst|hrly||metar:CLD_COND|
 31|1|Cloud Height|inst|inst|hrly|feet|metar:CLD_HGT|
@@ -409,14 +413,18 @@
 161|1|Max wind direction|max|15min|15min|degrees|newa:wdir_max_15min|
 162|1|Solar Radiation|sum|15min|15min|joule/m2|newa:rad_15min|
 163|1|Air Temperature|inst|5min|5min|degC|deos:temp_5min|
+163|2|Air Temperature|inst|5min|5min|degC|oardc:temp_5min|
 164|1|Dew Point Temperature|inst|5min|5min|degC|deos:dewpt_5min|
 165|1|Wind Speed|inst|5min|5min|m/sec|deos:wspd_5min|
+165|2|Wind Speed|inst|5min|5min|m/sec|oardc:wspd_5min|
 166|1|Wind Direction|inst|5min|5min|degrees|deos:wdir_5min|
 167|1|Barometric Pressure|inst|5min|5min|mbar|deos:pres_5min|
 168|1|Solar Radiation|sum|5min|5min|joule/m2|deos:rad_5min|
 169|1|Wind Gust Speed|inst|5min|5min|m/sec|deos:wspd_gust_5min|
 170|1|Precipitation|sum|5min|5min|mm|deos:prec_5min|
+170|2|Precipitation|sum|5min|5min|cm|oardc:prec_5min|
 171|1|Relative Humidity|inst|5min|5min|percent|deos:RH_5min|
+171|2|Relative Humidity|inst|5min|5min|percent|oardc:RH_5min|
 172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
 173|1|Soil Moisture|inst|5min|5min|percent|deos:soil_water_5min|
 174|1|Leaf Wetness minutes|sum|5min|5min|minutes|deos:LW_5min|

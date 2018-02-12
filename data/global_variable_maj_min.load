@@ -171,6 +171,7 @@
 27|6|Wind direction|inst|inst|hrly|degrees|njwx:wdir|
 27|7|Wind direction from 15min avg|inst|inst|hrly|degrees|newa:wdir_hr|
 27|8|Wind direction from 5min|inst|inst|hrly|degrees|deos:wdir_hr|
+27|9|Wind direction from sub-hourly|inst|inst|hrly|degrees|oardc:wdir_hr|
 28|1|Wind speed|inst|inst|hrly|knot|metar:WIND_SPD|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
 28|6|Wind speed|inst|inst|hrly|m/sec|njwx:wspd|
@@ -208,19 +209,25 @@
 51|0|Monthly Statistics|||daily||product|
 52|1|Precipitation|sum|15min|15min|inch|culog:PRCP_15MIN|
 52|2|Precipitation|sum|15min|15min|inch|newa:prec_15min|
+52|3|Precipitation|sum|15min|15min|cm|oardc:prec_15min|
 53|1|Avg wind speed|ave|15min|15min|mph|culog:WSPD_15MIN|
 53|2|Avg wind speed|ave|15min|15min|mph|newa:wspd_15min|
+53|3|Avg wind speed|ave|15min|15min|m/s|oardc:wspd_15min|
 54|1|wind direction|ave|15min|15min|degrees|culog:WDIR_15MIN|
 54|2|wind direction|ave|15min|15min|degrees|newa:wdir_15min|
+54|3|wind direction|ave|15min|15min|degrees|oardc:wdir_15min|
 55|1|Max 1-minute wind speed|max|15min|15min|mph|culog:WSMAX_1MIN_15MIN|
 55|2|Max 1-minute wind speed|max|15min|15min|mph|newa:wspd_max_15min|
 56|1|Dry bulb Temperature|inst|inst|15min|DegF|culog:TEMP_15MIN|
+56|2|Air Temperature|inst|inst|15min|DegC|oardc:temp_15min|
 57|1|Relative Humidity|inst|inst|15min|percent|culog:RH_15MIN|
+57|2|Relative Humidity|inst|inst|15min|percent|oardc:RH_15min|
 58|1|Dew point temperature|inst|inst|15min|DegF|culog:DEWPT_15MIN|
 59|1|Soil temperature 12in|inst|inst|15min|DegF|culog:ST12_15MIN|
 60|1|Solar Radiation Rate|inst|15min|15min|watt/m2|culog:SR_15MIN|
 61|1|Leaf Wetness minutes|sum|15min|15min|minutes|culog:LW_15MIN|
 61|2|Leaf Wetness minutes|sum|15min|15min|minutes|newa:lw_15min|
+61|3|Leaf Wetness minutes|sum|15min|15min|minutes|oardc:lw_15min|
 62|1|Daily Normal Max Temperature 1971-2000|nrml max|daily|daily|degF|td9641:D_30ME_TX|
 63|1|Daily Normal Min Temperature 1971-2000|nrml min|daily|daily|degF|td9641:D_30ME_TN|
 64|1|Daily Normal Avg Temperature 1971-2000|nrml avg|daily|daily|degF|td9641:D_30ME_TA|
@@ -318,6 +325,7 @@
 118|4|Leaf Wetness Fraction of Hour from 5min|sum|hrly|hrly|minutes|deos:LW_hr|
 118|5|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|njwx:LW|
 118|6|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|miwx:LW_hr|
+118|7|Leaf Wetness Fraction of Hour from sub-hourly|sum|hrly|hrly|minutes|oardc:LW_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
@@ -375,6 +383,7 @@
 132|6|Hourly Solar radiation from 15min|sum|hrly|hrly|joule/m2|newa:rad_hr|
 132|7|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|deos:rad_hr|
 132|8|Hourly Solar radiation|sum|hrly|hrly|joule/m2|miwx:rad_tot_hr|
+132|9|Hourly Solar radiation from sub-hourly|sum|hrly|hrly|langley|oardc:rad_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
@@ -412,21 +421,28 @@
 160|1|Min Daily Station Pressure|min|daily|daily|inch_Hg|newa:pres_min_24hr|
 161|1|Max wind direction|max|15min|15min|degrees|newa:wdir_max_15min|
 162|1|Solar Radiation|sum|15min|15min|joule/m2|newa:rad_15min|
+162|2|Solar Radiation|sum|15min|15min|langley|oardc:rad_15min|
 163|1|Air Temperature|inst|5min|5min|degC|deos:temp_5min|
 163|2|Air Temperature|inst|5min|5min|degC|oardc:temp_5min|
 164|1|Dew Point Temperature|inst|5min|5min|degC|deos:dewpt_5min|
 165|1|Wind Speed|inst|5min|5min|m/sec|deos:wspd_5min|
 165|2|Wind Speed|inst|5min|5min|m/sec|oardc:wspd_5min|
 166|1|Wind Direction|inst|5min|5min|degrees|deos:wdir_5min|
+166|2|Wind Direction|inst|5min|5min|degrees|oardc:wdir_5min|
 167|1|Barometric Pressure|inst|5min|5min|mbar|deos:pres_5min|
 168|1|Solar Radiation|sum|5min|5min|joule/m2|deos:rad_5min|
+168|2|Solar Radiation|sum|5min|5min|langley|oardc:rad_5min|
 169|1|Wind Gust Speed|inst|5min|5min|m/sec|deos:wspd_gust_5min|
 170|1|Precipitation|sum|5min|5min|mm|deos:prec_5min|
 170|2|Precipitation|sum|5min|5min|cm|oardc:prec_5min|
 171|1|Relative Humidity|inst|5min|5min|percent|deos:RH_5min|
 171|2|Relative Humidity|inst|5min|5min|percent|oardc:RH_5min|
 172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
+172|34|Soil Temperature unknown 5cm|inst|5min|5min|degC|oardc:ST5_5min|
+172|66|Soil Temperature unknown 10cm|inst|5min|5min|degC|oardc:ST10_5min|
+172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
 173|1|Soil Moisture|inst|5min|5min|percent|deos:soil_water_5min|
 174|1|Leaf Wetness minutes|sum|5min|5min|minutes|deos:LW_5min|
+174|2|Leaf Wetness minutes|sum|5min|5min|minutes|oardc:LW_5min|
 175|1|Snow Depth|inst|5min|5min|cm|deos:snwd_5min|
 176|1|PAR|inst|5min|5min|umol/m2|deos:PAR_5min|

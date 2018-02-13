@@ -223,19 +223,17 @@
 57|1|Relative Humidity|inst|inst|15min|percent|culog:RH_15MIN|
 57|2|Relative Humidity|inst|inst|15min|percent|oardc:RH_15min|
 58|1|Dew point temperature|inst|inst|15min|DegF|culog:DEWPT_15MIN|
-59|1|Soil temperature 12in|inst|inst|15min|DegF|culog:ST12_15MIN|
+59|1|Soil temperature|inst|inst|15min|DegF|culog:ST12_15MIN|
+59|2|Soil temperature|inst|inst|15min|DegF|newa:soil_temp_15min|
 60|1|Solar Radiation Rate|inst|15min|15min|watt/m2|culog:SR_15MIN|
 61|1|Leaf Wetness minutes|sum|15min|15min|minutes|culog:LW_15MIN|
 61|2|Leaf Wetness minutes|sum|15min|15min|minutes|newa:lw_15min|
 61|3|Leaf Wetness minutes|sum|15min|15min|minutes|oardc:lw_15min|
-62|1|Daily Normal Max Temperature 1971-2000|nrml max|daily|daily|degF|td9641:D_30ME_TX|
-63|1|Daily Normal Min Temperature 1971-2000|nrml min|daily|daily|degF|td9641:D_30ME_TN|
-64|1|Daily Normal Avg Temperature 1971-2000|nrml avg|daily|daily|degF|td9641:D_30ME_TA|
-65|1|Daily Normal Preciptation 1971-2000|nrml sum|daily|daily|inch|td9641:D_30ME_PC|
-66|1|Daily Normal Degrees Above 1971-2000|nrml|daily|daily|DegF|td9641:D_30ME_CD65|
-67|1|Daily Normal Degrees Below 1971-2000|nrml|daily|daily|DegF|td9641:D_30ME_HD65|
-68|1|Daily Normal Snowfall 1971-2000|nrml sum|daily|daily|inch|td9641:D_30ME_SNOW|
+62|2|Max Soil temperature|max|15min|15min|DegF|newa:soil_temp_max_15min|
+63|2|Min Soil temperature|min|15min|15min|DegF|newa:soil_temp_max_15min|
+64|1|Avg Soil tension|ave|15min|15min|kPa|newa:soil_tension_15min|
 69|274|Avg Soil Temp at 10cm Bare Soil|ave|daily|daily|degF|awdn|
+69|2|Avg Daily Soil Temp|ave|daily|daily|degF|mowx:SOILTAVG_cover_depth_24H|
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|
 70|2|Total Rad Horizontal Surface|sum|daily|daily|MJ/m2|awdn|
 70|3|Daily Solar Radiation|sum|daily|daily|joule/m2|newa:rad_24hr|
@@ -282,16 +280,7 @@
 89|4|Avg Wind Speed|avg|daily|daily|mph|cli:AWND|
 89|5|Avg Wind Speed|avg|daily|daily|mph|cf6:AWND|
 90|1|Water Equivalent of snowfall|inst|inst|daily|mm|ghcn:WESF|
-91|0|Monthly Average Max Temperature|avg|daily|monthly|degF||
-92|0|Monthly Average Min Temperature|avg|daily|monthly|degF||
-93|0|Monthly Average Mean Dewpoint|avg|daily|monthly|degF||
-94|0|Monthly Total Preciptation|sum|monthly|monthly|Inch||
-95|0|Annual Average Max Temperature|avg|monthly|yearly|degF||
-96|0|Annual Average Min Temperature|avg|monthly|yearly|degF||
-97|0|Annual Average Mean Dewpoint|avg|monthly|yearly|degF||
-98|0|Annual Total Preciptation|sum|monthly|yearly|Inch||
-99|0|Monthly Average Mean Temperature|avg|daily|monthly|degF||
-100|0|Annual Average Mean Temperature|avg|monthly|yearly|degF||
+91|1|Avg Soil Tension from 15min|avg|hrly|hrly|kPa|newa:soil_tension_hr|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
 102|3|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cf6:PKWD|
@@ -328,21 +317,13 @@
 118|7|Leaf Wetness Fraction of Hour from sub-hourly|sum|hrly|hrly|minutes|oardc:LW_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
-120|1|Soil temperature 4in|inst|inst|hrly|DegF|newa:ST|
-120|2|Soil temperature 8in|inst|inst|hrly|DegF|newa:ST8|
-121|273|Hourly Max. Bare 4 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_BARESOIL_10_H|
-121|265|Hourly Max. Grass 4 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_GRASS_10_H|
-121|401|Hourly Max. Bare 8 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_BARESOIL_20_H|
-121|393|Hourly Max. Grass 8 in. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_GRASS_20_H|
-122|273|Hourly Min. Bare 4 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_BARESOIL_10_H|
-122|265|Hourly Min. Grass 4 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_GRASS_10_H|
-122|401|Hourly Min. Bare 8 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_BARESOIL_20_H|
-122|393|Hourly Min. Grass 8 in. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_GRASS_20_H|
-123|273|Hourly Ave. Bare 4 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_10_H|
-123|265|Hourly Ave. Grass 4 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_GRASS_10_H|
-123|401|Hourly Ave. Bare 8 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_20_H|
-123|393|Hourly Ave. Grass 8 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_GRASS_20_H|
-123|529|Hourly Ave. Bare 20 in. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_BARESOIL_50_H|
+120|1|Soil temperature|inst|inst|hrly|DegF|newa:ST|
+120|2|Soil temperature from 15min|inst|inst|hrly|DegF|newa:soil_temp_hr|
+121|1|Hourly Max. Soil Temperature|max|hrly|hrly|DegC|culog:SOILTMAX_cover_depth_H|
+121|2|Hourly Max. Soil temperature from 15min|max|hrly|hrly|DegF|newa:soil_temp_max_hr|
+122|1|Hourly Min. Soil Temperature|min|hrly|hrly|DegC|culog:SOILTMIN_cover_depth_H|
+122|2|Hourly Min. Soil temperature from 15min|min|hrly|hrly|DegF|newa:soil_temp_min_hr|
+123|1|Hourly Ave. Soil Temperature|avg|hrly|hrly|DegC|culog:SOILTAVG_cover_depth_H|
 124|1|Maximum Hourly 60 in. Temperature|max|hrly|hrly|degC|culog:TMAX_H|
 124|2|Maximum Hourly 60 in. Temperature #2|max|hrly|hrly|degC|culog:TMAX2_H|
 124|3|Maximum Hourly 3 in. Temperature|max|hrly|hrly|degC|culog:TMAX_3IN_H|
@@ -440,7 +421,6 @@
 172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
 172|34|Soil Temperature unknown 5cm|inst|5min|5min|degC|oardc:ST5_5min|
 172|66|Soil Temperature unknown 10cm|inst|5min|5min|degC|oardc:ST10_5min|
-172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
 173|1|Soil Moisture|inst|5min|5min|percent|deos:soil_water_5min|
 174|1|Leaf Wetness minutes|sum|5min|5min|minutes|deos:LW_5min|
 174|2|Leaf Wetness minutes|sum|5min|5min|minutes|oardc:LW_5min|

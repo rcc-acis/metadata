@@ -232,6 +232,7 @@
 62|2|Max Soil temperature|max|15min|15min|DegF|newa:soil_temp_max_15min|
 63|2|Min Soil temperature|min|15min|15min|DegF|newa:soil_temp_max_15min|
 64|1|Avg Soil tension|ave|15min|15min|kPa|newa:soil_tension_15min|
+65|1|Avg Soil Tension from 15min|avg|hrly|hrly|kPa|newa:soil_tension_hr|
 69|274|Avg Soil Temp at 10cm Bare Soil|ave|daily|daily|degF|awdn|
 69|2|Avg Daily Soil Temp|ave|daily|daily|degF|mowx:SOILTAVG_cover_depth_24H|
 70|1|Global Solar Rad in Watts|sum|daily|daily|watts/m2|awdn|

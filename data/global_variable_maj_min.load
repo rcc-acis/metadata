@@ -281,7 +281,6 @@
 89|4|Avg Wind Speed|avg|daily|daily|mph|cli:AWND|
 89|5|Avg Wind Speed|avg|daily|daily|mph|cf6:AWND|
 90|1|Water Equivalent of snowfall|inst|inst|daily|mm|ghcn:WESF|
-91|1|Avg Soil Tension from 15min|avg|hrly|hrly|kPa|newa:soil_tension_hr|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|
 102|2|peak wind direction|max|15 min|daily|degrees|newa:wdir_max_24hr|
 102|3|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cf6:PKWD|

@@ -443,8 +443,7 @@
 171|2|Relative Humidity|inst|5min|5min|percent|oardc:RH_5min|
 171|3|Relative Humidity|inst|5min|5min|percent|nysm:relh_5min|
 172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
-172|34|Soil Temperature unknown 5cm|inst|5min|5min|degC|oardc:ST5_5min|
-172|66|Soil Temperature unknown 10cm|inst|5min|5min|degC|oardc:ST10_5min|
+172|2|Soil Temperature|inst|5min|5min|degC|oardc:ST_5min|
 172|3|Soil Temperature|inst|5min|5min|degC|nysm:st_5min|
 173|1|Soil Moisture|inst|5min|5min|percent|deos:soil_water_5min|
 173|2|Soil Moisture|inst|5min|5min|m^3/m^3|nysm:sm_5min|

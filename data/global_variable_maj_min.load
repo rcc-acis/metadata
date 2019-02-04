@@ -67,7 +67,7 @@
 4|18|Precipitation|sum|daily|daily|Inch|newa:prcp_24hr|
 4|19|Precipitation from 5min|sum|daily|daily|mm|deos:prcp_dy|
 4|20|Precipitation|sum|daily|daily|Inch|cf6:PP|
-4|21|Precipitation|sum|daily|daily|Inch|cadx:pcpn|
+4|21|Precipitation|sum|daily|daily|Inch|cadx:PCPN|
 5|1|Hourly precipitation|sum|hrly|hrly|Inch|metar:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|
@@ -237,7 +237,7 @@
 61|2|Leaf Wetness minutes|sum|15min|15min|minutes|newa:lw_15min|
 61|3|Leaf Wetness minutes|sum|15min|15min|minutes|oardc:lw_15min|
 62|2|Max Soil temperature|max|15min|15min|DegF|newa:soil_temp_max_15min|
-63|2|Min Soil temperature|min|15min|15min|DegF|newa:soil_temp_max_15min|
+63|2|Min Soil temperature|min|15min|15min|DegF|newa:soil_temp_min_15min|
 64|1|Avg Soil tension|ave|15min|15min|kPa|newa:soil_tension_15min|
 65|1|Avg Soil Tension from 15min|avg|hrly|hrly|kPa|newa:soil_tension_hr|
 69|274|Avg Soil Temp at 10cm Bare Soil|ave|daily|daily|degF|awdn|
@@ -293,9 +293,9 @@
 103|2|Daily soil moisture by impedance at 25 cm|avg|daily|daily|%|awdn|
 103|3|Daily soil moisture by impedance at 50 cm|avg|daily|daily|%|awdn|
 103|4|Daily soil moisture by impedance at 100 cm|avg|daily|daily|%|awdn|
-104|1|Hourly soil moisture by capacitance at 10 cm|avg|hourly|hourly|%|awdn|
-104|2|Hourly soil moisture from 5min|avg|hourly|hourly|%|deos:soil_water_hr|
-104|3|Hourly soil moisture from 5min|avg|hourly|hourly|m^3/m^3|nysm:sm_hr|
+104|1|Hourly soil moisture by capacitance at 10 cm|avg|hrly|hrly|%|awdn|
+104|2|Hourly soil moisture from 5min|avg|hrly|hrly|%|deos:soil_water_hr|
+104|3|Hourly soil moisture from 5min|avg|hrly|hrly|m^3/m^3|nysm:sm_hr|
 105|1|Average Daily Station Pressure|avg|daily|daily|0.001 inch_Hg|3210:PRES|
 106|1|Average Daily Sea Level Pressure|avg|daily|daily|0.1 millibar|3210:SLVP|
 107|1|Average Daily Dew-Point Temperature|avg|daily|daily|0.1 degF|3210:DPTP|
@@ -360,12 +360,12 @@
 128|2|Hourly Ave. Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_60IN_H|
 128|3|Hourly Ave. Wind Speed 18 in.|avg|hrly|hrly|miles/hour|culog:WSAVG_18IN_H|
 128|4|Hourly Ave. Wind Speed|avg|hrly|hrly|m/sec|njwx:wspd_avg|
-128|5|Hourly Ave. Wind Speed from 15min|avg|hrly|hrly|miles/hour|newa:wspd_15min|
+128|5|Hourly Ave. Wind Speed from 15min|avg|hrly|hrly|miles/hour|newa:wspd_hr_15min|
 129|1|Hourly Resultant Wind Speed 10 meter|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_H|
 129|2|Hourly Resultant Wind Speed 60 in.|avg|hrly|hrly|miles/hour|culog:WIND_VECTOR_SPEED_60IN_H|
 130|1|Hourly Ave. Wind Direction 10 meter|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_H|
 130|2|Hourly Ave. Wind Direction 60 in.|avg|hrly|hrly|degrees|culog:WIND_VECTOR_DIR_60IN_H|
-130|3|Wind direction from 15 min avg|avg|hrly|hrly|degrees|newa:wdir_15min|
+130|3|Wind direction from 15 min avg|avg|hrly|hrly|degrees|newa:wdir_avg_hr|
 131|1|Hourly Std. Dev. Wind Direction 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_H|
 131|2|Hourly Std. Dev. Wind Direction 60 in.|stddev|hrly|hrly||culog:WIND_VECTOR_STDEV_60IN_H|
 131|3|Hourly Std. Dev. Wind Direction-Yamartino 10 meter|stddev|hrly|hrly||culog:WIND_VECTOR_STDEVY_H|

@@ -4,8 +4,11 @@ soil depth  5cm : 0x02
            15cm : 0x04
            20cm : 0x05
            25cm : 0x06
-           30cm : 0x07
-           50cm : 0x09
+           30cm : 0x07  # 12in
+           50cm : 0x09  # 20in
+          100cm : 0x0a  # 40in
+          150cm : 0x0b  # 60in
+          200cm : 0x0c  # 80in (nominal 6ft)
 
 cover grass       : 0x01
       fallow      : 0x02
@@ -25,7 +28,7 @@ cover grass       : 0x01
 
 Soil Temperature
 Daily:
-  inst: 16                 td3200: 1
+  inst: 16                 td3200: 1,2
   min:  14                 td3200: 1, awdn: 2
   max:  15                 td3200: 1, awdn: 2
   ave:  69                 awdn: 1, mowx: 2
@@ -44,13 +47,13 @@ Hourly:
 
 
 5min:
-  inst: 172                deos: 1
+  inst: 172                deos: 1, oardc: 2, nysm: 3
 
 
 
 Soil Moisture (percent)
 5min:
-  inst: 173                deos: 1
+  inst: 173                deos: 1, nysm: 2
 
 Soil Moisture (impedance %)
 Daily:

@@ -348,6 +348,7 @@
 118|5|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|njwx:LW|
 118|6|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|miwx:LW_hr|
 118|7|Leaf Wetness Fraction of Hour from sub-hourly|sum|hrly|hrly|minutes|oardc:LW_hr|
+118|9|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|tscan:LW_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature|inst|inst|hrly|DegF|newa:ST|

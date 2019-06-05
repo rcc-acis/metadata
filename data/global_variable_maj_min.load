@@ -173,10 +173,7 @@
 23|12|Hourly Temperature|inst|inst|hrly|DegF|scan:TOBS_hr|
 23|13|Hourly Temperature|inst|inst|hrly|DegF|tscan:TOBS_hr|
 23|14|Hourly Temperature from 5min|inst|inst|hrly|DegC|nwon:temp_hr|
-<<<<<<< Updated upstream
-=======
 23|15|Hourly Temperature from 15min|inst|inst|hrly|DegC|culog:TEMP_H|
->>>>>>> Stashed changes
 24|1|Relative Humidity|inst|inst|hrly|percent|metar:RH|
 24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
 24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|

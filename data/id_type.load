@@ -1,14 +1,14 @@
 0|Unknown||NA|19990325|bnoon|
-1|WBAN number||NCDC|19990325|bnoon|
-2|NWS Coop number||NCDC|19990325|bnoon|
+1|WBAN number||NCEI|19990325|bnoon|
+2|NWS Coop number||NCEI|19990325|bnoon|
 3|FAA Location Identifier||FAA|19990325|bnoon|
 4|WMO number||WMO, NWS for US stations|19990325|bnoon|
 5|ICAO ID||ICAO, NWS for US stations|19990325|bnoon|
-6|GHCN ID||NCDC|20110527|bnoon|
+6|GHCN ID||NCEI|20110527|bnoon|
 7|NWSLI||NWS|19990325|bnoon|
 8|NRCC identifier||Northeast Regional Climate Center|20040726|bnoon|
 9|THRDX identifier||NRCC|20060215|bnoon|
-10|CoCoRaHS id||NCDC|20110527|bnoon|
+10|CoCoRaHS id||NCEI|20110527|bnoon|
 11|DEOS id||University of Delaware|20130522|bnoon|
 12|MOWX id||Missouri Mesonet|20140730|stoecker|
 13|MIWX id||Michigan AgWeatherNet|20160512|bnoon|
@@ -30,3 +30,4 @@
 29|CADX Identifier||CA DWR|20170207|bdaudert|
 30|UCC Identifier||Utah Climate Center|20190408|bnoon|
 31|NWON Identifier||NEWA-Onset|20190424|bnoon|
+32|GHCN-H Identifier||NCEI|20230501|bnoon|

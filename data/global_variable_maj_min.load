@@ -21,6 +21,7 @@
 1|22|Maximum Temperature|max|daily|daily|DegF|mowx:TMAX|
 1|23|Maximum Temperature|max|daily|daily|DegF|scan:TMAX|
 1|24|Maximum Temperature|max|daily|daily|DegF|tscan:TMAX|
+1|25|Maximum Temperature|max|daily|daily|DegF|coag:TMAX|
 2|1|Minimum Temperature|min|daily|daily|DegF|3200:TMIN|
 2|2|Minimum Temperature|min|daily|daily|0.1 DegC|ghcn:TMIN|
 2|3|24 hour Minimum Temperature|min|daily|daily|DegF|metar:TMIN_24HR|
@@ -44,6 +45,7 @@
 2|22|Minimum Temperature|min|daily|daily|DegF|mowx:TMIN|
 2|23|Minimum Temperature|min|daily|daily|DegF|scan:TMIN|
 2|24|Minimum Temperature|min|daily|daily|DegF|tscan:TMIN|
+2|25|Minimum Temperature|min|daily|daily|DegF|coag:TMIN|
 3|1|Temperature at obs time|inst|inst|daily|DegF|3200:TOBS|
 3|2|Temperature at obs time|inst|inst|daily|DegF|3206:TOBS|
 3|3|Temperature at obs time|inst|inst|daily|0.1 DegC|ghcn:TOBS|
@@ -76,6 +78,7 @@
 4|21|Precipitation|sum|daily|daily|Inch|cadx:PCPN|
 4|22|Precipitation|sum|daily|daily|Inch|scan:PRCP|
 4|23|Precipitation|sum|daily|daily|Inch|tscan:PRCP|
+4|24|Precipitation|sum|daily|daily|Inch|coag:PRCP|
 5|1|Hourly precipitation|sum|hrly|hrly|Inch|metar:PRCP|
 5|2|Hourly precipitation|sum|hrly|hrly|Inch|td3240|
 5|5|Hourly precipitation|sum|hrly|hrly|Inch|shef:PPH|

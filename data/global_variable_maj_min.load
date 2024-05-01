@@ -95,6 +95,7 @@
 5|16|Hourly precipitation|sum|hrly|hrly|Inch|tscan:PRCP_hr|
 5|17|Hourly precipitation from 5min|sum|hrly|hrly|mm|nwon:prec_hr|
 5|18|Hourly precipitation|sum|hrly|hrly|Inch|ucc:prec_hr|
+5|19|Hourly precipitation|sum|hrly|hrly|Inch|winet:prec_hr|
 6|1|Daily Occurrences of Weather|sum|daily|daily||3200:DYSW|
 6|2|Weather|sum|daily|daily||3206:DYSW|
 6|3|Daily Occurrences of Weather|sum|daily|daily||3210:DYSW|
@@ -159,6 +160,7 @@
 18|7|Station Pressure from 5min|inst|inst|hrly|mbar|deos:pres_hr|
 18|8|Station Pressure from 5min|inst|inst|hrly|mbar|nysm:pres_hr|
 18|9|Station Pressure from 5min|inst|inst|hrly|mbar|nwon:pres_hr|
+18|10|Station Pressure from 5min|inst|inst|hrly|inch|winet:pres_hr|
 19|1|Sea level pressure|inst|inst|hrly|inch_Hg|metar:SL_PRES|
 20|1|Present Weather|inst|inst|hrly||metar:STN_WX|
 21|1|Weather in the Vicinity|inst|inst|hrly||metar:VIC_WX|
@@ -166,6 +168,7 @@
 22|5|Dew point temperature|inst|inst|hrly|DegF|newa:dewpt|
 22|6|Dew point temperature|inst|inst|hrly|DegC|njwx:dewpt|
 22|7|Dew point temperature from 5min|inst|inst|hrly|DegC|deos:dewpt_hr|
+22|8|Dew point temperature from 5min|inst|inst|hrly|DegF|winet:dewpt_hr|
 23|1|Dry bulb Temperature|inst|inst|hrly|DegF|metar:TEMP|
 23|5|Dry bulb Temperature|inst|inst|hrly|DegF|shef:TA|
 23|6|Dry bulb Temperature|inst|inst|hrly|DegF|newa:temp|
@@ -178,6 +181,7 @@
 23|13|Hourly Temperature|inst|inst|hrly|DegF|tscan:TOBS_hr|
 23|14|Hourly Temperature from 5min|inst|inst|hrly|DegC|nwon:temp_hr|
 23|15|Hourly Temperature from 15min|inst|inst|hrly|DegC|culog:TEMP_H|
+23|16|Hourly Temperature from 5min|inst|inst|hrly|DegF|winet:temp_hr|
 24|1|Relative Humidity|inst|inst|hrly|percent|metar:RH|
 24|5|Relative Humidity|inst|inst|hrly|percent|newa:RH|
 24|6|Relative Humidity|inst|inst|hrly|percent|culog:SAMPLE_RH_H|
@@ -191,6 +195,7 @@
 24|14|Relative Humidity|inst|inst|hrly|percent|scan:RHUM_hr|
 24|15|Relative Humidity|inst|inst|hrly|percent|tscan:RHUM_hr|
 24|16|Relative Humidity from 5min|inst|inst|hrly|percent|nwon:RH_hr|
+24|17|Relative Humidity from 5min|inst|inst|hrly|percent|winet:RH_hr|
 25|1|Wet bulb Temperature|inst|inst|hrly|DegF|metar:WB_TEMP|
 26|1|Horizontal Visibility|inst|inst|hrly|miles|metar:HOR_VIS|
 27|1|Wind direction|inst|inst|hrly|degrees|metar:WIND_DIR|
@@ -209,6 +214,7 @@
 28|9|Wind speed from sub-hrly|inst|inst|hrly|m/sec|oardc:wspd_hr|
 28|10|Wind speed from 5min|inst|inst|hrly|miles/hour|nysm:wspd_hr|
 28|11|Wind speed from 5min|inst|inst|hrly|m/sec|nwon:wspd_hr|
+28|12|Wind speed from 5min|inst|inst|hrly|miles/hour|winet:wspd_hr|
 29|1|Cloud Coverage|inst|inst|hrly|fraction|metar:CLD_COV|
 30|1|Cloud Condition|inst|inst|hrly||metar:CLD_COND|
 31|1|Cloud Height|inst|inst|hrly|feet|metar:CLD_HGT|
@@ -366,6 +372,7 @@
 118|9|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|tscan:LW_hr|
 118|10|Leaf Wetness Fraction of Hour from 5min|sum|hrly|hrly|minutes|nwon:lw_hr|
 118|11|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|ucc:lw_hr|
+118|12|Leaf Wetness Fraction of Hour|sum|hrly|hrly|minutes|winet:lw_hr|
 119|1|Solar Radiation Rate|inst|hrly|hrly|watt/m2|newa:rad|
 119|2|Solar Radiation Rate|inst|hrly|hrly|watt/m2|njwx:rad|
 120|1|Soil temperature|inst|inst|hrly|DegF|newa:ST|
@@ -400,6 +407,7 @@
 124|8|Maximum Hourly Temperature|max|hrly|hrly|degF|tscan:TMAX_hr|
 124|9|Maximum Hourly Temperature from 5min|max|hrly|hrly|degC|nwon:temp_max_hr|
 124|10|Maximum Hourly Temperature|max|hrly|hrly|degF|ucc:temp_max_hr|
+124|11|Maximum Hourly Temperature|max|hrly|hrly|degF|winet:temp_max_hr|
 125|1|Minimum Hourly 60 in. Temperature|min|hrly|hrly|degC|culog:TMIN_H|
 125|2|Minimum Hourly 60 in. Temperature #2|min|hrly|hrly|degC|culog:TMIN2_H|
 125|3|Minimum Hourly 3 in. Temperature|min|hrly|hrly|degC|culog:TMIN_3IN_H|
@@ -410,6 +418,7 @@
 125|8|Minimum Hourly Temperature|min|hrly|hrly|degF|tscan:TMIN_hr|
 125|9|Minimum Hourly Temperature from 5min|min|hrly|hrly|degC|nwon:temp_min_hr|
 125|10|Minimum Hourly Temperature|min|hrly|hrly|degF|ucc:temp_min_hr|
+125|11|Minimum Hourly Temperature|min|hrly|hrly|degF|winet:temp_min_hr|
 126|1|Average Hourly 60 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_H|
 126|2|Average Hourly 60 in. Temperature #2|ave|hrly|hrly|degC|culog:TAVG2_H|
 126|3|Average Hourly 3 in. Temperature|ave|hrly|hrly|degC|culog:TAVG_3IN_H|
@@ -448,6 +457,7 @@
 132|9|Hourly Solar radiation from sub-hourly|sum|hrly|hrly|langley|oardc:rad_hr|
 132|10|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|nysm:srad_hr|
 132|11|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|nwon:rad_hr|
+132|12|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|winet:rad_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|Inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|Inch|culog:OZAVG_H|
@@ -498,11 +508,14 @@
 163|2|Air Temperature|inst|5min|5min|degC|oardc:temp_5min|
 163|3|Air Temperature|inst|5min|5min|degC|nysm:tair_5min|
 163|4|Air Temperature|inst|5min|5min|degC|nwon:temp_5min|
+163|5|Air Temperature|inst|5min|5min|degF|winet:temp_5min|
 164|1|Dew Point Temperature|inst|5min|5min|degC|deos:dewpt_5min|
+164|2|Dew Point Temperature|inst|5min|5min|degF|winet:dewpt_5min|
 165|1|Wind Speed|inst|5min|5min|m/sec|deos:wspd_5min|
 165|2|Wind Speed|inst|5min|5min|m/sec|oardc:wspd_5min|
 165|3|Wind Speed|inst|5min|5min|miles/hour|nysm:wspd_5min|
 165|4|Wind Speed|inst|5min|5min|m/sec|nwon:wspd_5min|
+165|5|Wind Speed|inst|5min|5min|miles/hour|winet:wspd_5min|
 166|1|Wind Direction|inst|5min|5min|degrees|deos:wdir_5min|
 166|2|Wind Direction|inst|5min|5min|degrees|oardc:wdir_5min|
 166|3|Wind Direction|inst|5min|5min|degrees|nysm:wdir_5min|
@@ -510,10 +523,12 @@
 167|1|Barometric Pressure|inst|5min|5min|mbar|deos:pres_5min|
 167|2|Barometric Pressure|inst|5min|5min|mbar|nysm:pres_5min|
 167|3|Barometric Pressure|inst|5min|5min|mbar|nwon:pres_5min|
+167|4|Barometric Pressure|inst|5min|5min|inch|winet:pres_5min|
 168|1|Solar Radiation|sum|5min|5min|joule/m2|deos:rad_5min|
 168|2|Solar Radiation|sum|5min|5min|langley|oardc:rad_5min|
 168|3|Solar Radiation|sum|5min|5min|joule/m2|nysm:srad_5min|
 168|4|Solar Radiation|sum|5min|5min|joule/m2|nwon:rad_5min|
+168|5|Solar Radiation|sum|5min|5min|joule/m2|winet:rad_5min|
 169|1|Wind Gust Speed|inst|5min|5min|m/sec|deos:wspd_gust_5min|
 169|2|Wind Gust Speed|inst|5min|5min|miles/hour|nysm:wmax_5min|
 169|3|Wind Gust Speed|inst|5min|5min|m/sec|nwon:wspd_gust_5min|
@@ -521,10 +536,12 @@
 170|2|Precipitation|sum|5min|5min|cm|oardc:prec_5min|
 170|3|Precipitation|sum|5min|5min|mm|nysm:precip_5min|
 170|4|Precipitation|sum|5min|5min|mm|nwon:prec_5min|
+170|5|Precipitation|sum|5min|5min|inch|winet:prec_5min|
 171|1|Relative Humidity|inst|5min|5min|percent|deos:RH_5min|
 171|2|Relative Humidity|inst|5min|5min|percent|oardc:RH_5min|
 171|3|Relative Humidity|inst|5min|5min|percent|nysm:relh_5min|
 171|4|Relative Humidity|inst|5min|5min|percent|nwon:RH_5min|
+171|5|Relative Humidity|inst|5min|5min|percent|winet:RH_5min|
 172|1|Soil Temperature|inst|5min|5min|degC|deos:soil_temp_5min|
 172|2|Soil Temperature|inst|5min|5min|degC|oardc:ST_5min|
 172|3|Soil Temperature|inst|5min|5min|degC|nysm:st_5min|
@@ -535,6 +552,7 @@
 174|1|Leaf Wetness minutes|sum|5min|5min|minutes|deos:LW_5min|
 174|2|Leaf Wetness minutes|sum|5min|5min|minutes|oardc:LW_5min|
 174|3|Leaf Wetness minutes|sum|5min|5min|minutes|nwon:lw_5min|
+174|4|Leaf Wetness minutes|sum|5min|5min|minutes|winet:lw_5min|
 175|1|Snow Depth|inst|5min|5min|cm|deos:snwd_5min|
 175|2|Snow Depth|inst|5min|5min|inch|nysm:snwd_5min|
 176|1|PAR|inst|5min|5min|umol/m2|deos:PAR_5min|

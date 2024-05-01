@@ -30,6 +30,7 @@
 29|ghcnh|NCEI GHCN Hourly||32|20230501|bnoon|
 30|coag|CoAgmet|Colorado Agricultural Network|33|20231019|bnoon|
 31|winet|WiscoNet|Wisconsin Environmental Mesonet|34|20240312|bnoon|
+32|ghcnh|NCEI GHCN Hourly||32|20240501|bnoon|
 52|td3205|MCC Coop pre-1948||2|20050808|bnoon|
 53|td3299|NWS Keyed data||2|20060207|bnoon|
 54|thrdx|ThreadEx data||9|20060215|bnoon|

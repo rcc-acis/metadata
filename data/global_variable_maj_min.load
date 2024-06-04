@@ -216,6 +216,7 @@
 27|9|Wind direction from sub-hourly|inst|inst|hrly|degrees|oardc:wdir_hr|
 27|10|Wind direction from 5min|inst|inst|hrly|degrees|nysm:wdir_hr|
 27|11|Wind direction from 5min|inst|inst|hrly|degrees|nwon:wdir_hr|
+27|12|Wind direction from 5min|inst|inst|hrly|degrees|winet:wdir_hr|
 28|1|Wind speed|inst|inst|hrly|knot|metar:WIND_SPD|
 28|2|Wind speed|inst|inst|hrly|m/sec|ghcnh:wspd|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
@@ -538,6 +539,7 @@
 166|2|Wind Direction|inst|5min|5min|degrees|oardc:wdir_5min|
 166|3|Wind Direction|inst|5min|5min|degrees|nysm:wdir_5min|
 166|4|Wind Direction|inst|5min|5min|degrees|nwon:wdir_5min|
+166|5|Wind Direction|inst|5min|5min|degrees|winet:wdir_5min|
 167|1|Barometric Pressure|inst|5min|5min|mbar|deos:pres_5min|
 167|2|Barometric Pressure|inst|5min|5min|mbar|nysm:pres_5min|
 167|3|Barometric Pressure|inst|5min|5min|mbar|nwon:pres_5min|

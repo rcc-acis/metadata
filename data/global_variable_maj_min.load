@@ -66,6 +66,7 @@
 4|8|Precipitation|sum|daily|daily|Inch|dsm:PRCP_24HR|
 4|9|Precipitation|sum|daily|daily|0.01 Inch|3206:PRCP|
 4|10|Precipitation|sum|daily|daily|Inch|srcc:PP|
+4|11|Precipitation|sum|daily|daily|0.01 Inch|ccrhs:pp|
 4|12|Precipitation|sum|daily|daily|Inch|cli:PP|
 4|13|Precipitation|sum|daily|daily|0.01 Inch|3210:PRCP|
 4|14|Precipitation|sum|daily|daily|0.01 Inch|3205:PRCP|
@@ -108,6 +109,7 @@
 9|2|Maximum Temperature, evaporation pan|inst|inst|daily|DegF|3206:MXPN|
 10|1|Snowfall|sum|daily|daily|0.1 Inch|3200:SNOW|
 10|2|Snowfall|sum|daily|daily|mm|ghcn:SNOW|
+10|3|Snowfall|sum|daily|daily|0.1 Inch|ccrhs:sf|
 10|4|Snowfall|sum|daily|daily|Inch|shef:SF|
 10|5|Snowfall|sum|daily|daily|Inch|hcn:SNOW|
 10|6|Snowfall|sum|daily|daily|mm|awdn|
@@ -124,6 +126,7 @@
 10|17|Snowfall|sum|daily|daily|Inch|cf6:SF|
 11|1|Snow Depth at obs time|inst|inst|daily|Inch|3200:SNWD|
 11|2|Snow Depth at obs time|inst|inst|daily|mm|ghcn:SNWD|
+11|3|Snow Depth at obs time|inst|inst|daily|0.1 Inch|ccrhs:sd|
 11|4|Snow Depth at obs time|inst|inst|daily|Inch|shef:SD|
 11|5|Snow Depth at obs time|inst|inst|daily|Inch|hcn:SNWD|
 11|6|Snow Depth at obs time|inst|inst|daily|Inch|nrcc:SD|
@@ -146,6 +149,7 @@
 13|4|Water Equivalent of snow depth|inst|inst|daily|Inch|shef:SW|
 13|5|Water Equivalent of Snow on the Ground|inst|inst|daily|0.01 Inch|3210:WTEQ|
 13|6|Water Equivalent of Snow depth|inst|inst|daily|Inch|metar:SNWTEQ|
+13|7|Water Equivalent of Snow depth|inst|inst|daily|0.01 Inch|ccrhs:sdweq|
 14|1|Minimum soil temperature|min|daily|daily|DegF|3200:SNyz|
 14|274|Min Soil Temp at 10cm Bare Soil|min|daily|daily|degC|awdn|
 14|146|Min Soil Temp at 5cm Bare Soil|min|daily|daily|degC|awdn|
@@ -348,6 +352,7 @@
 89|6|Avg Wind Speed|avg|daily|daily|mph|scan:WSPDV|
 89|7|Avg Wind Speed|avg|daily|daily|mph|tscan:WSPDV|
 90|1|Water Equivalent of snowfall|inst|inst|daily|0.1 mm|ghcn:WESF|
+90|2|Water Equivalent of snowfall|inst|inst|daily|0.01 Inch|ccrhs:sfweq|
 101|1|Avg Wind Direction|avg|daily|daily|degrees|scan:WDIRV|
 101|2|Avg Wind Direction|avg|daily|daily|degrees|tscan:WDIRV|
 102|1|peak wind direction 5 sec 10 meter|max|5 second|daily|degrees|cli:PKWD|

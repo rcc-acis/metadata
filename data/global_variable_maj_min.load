@@ -248,7 +248,7 @@
 27|10|Wind direction from 5min|inst|inst|hrly|degrees|nysm:wdir_hr|
 27|11|Wind direction from 5min|inst|inst|hrly|degrees|nwon:wdir_hr|
 27|12|Wind direction from 5min|inst|inst|hrly|degrees|winet:wdir_hr|
-28|0|Wind speed|inst|inst|hrly|knot|wspd_hr|
+28|0|Wind speed|inst|inst|hrly|miles/hour|wspd_hr|
 28|1|Wind speed|inst|inst|hrly|knot|metar:WIND_SPD|
 28|2|Wind speed|inst|inst|hrly|m/sec|ghcnh:wspd|
 28|5|Wind speed|inst|inst|hrly|miles/hour|newa:wspd|
@@ -390,6 +390,7 @@
 83|1|Net Rad MJ|sum|daily|daily|MJ/m2|awdn|
 84|1|Accumulated Hours Over 10c/50F|sum|daily|daily|hour|awdn|
 84|1|Accumulated Hours Over 4c/40F|sum|daily|daily|hour|awdn|
+85|0|Wind gust|inst|inst|hrly|miles/hour|wgust_hr|
 85|1|Wind gust|inst|inst|hrly|knots|metar:WIND_GUST|
 85|2|Wind gust|inst|inst|hrly|m/sec|ghcnh:wgust|
 86|1|Pressure 3-hour change|3 hour|3 hour|hrly||metar:PRES_CHG|

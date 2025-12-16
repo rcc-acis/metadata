@@ -356,6 +356,7 @@
 70|4|Daily Solar Radiation|sum|daily|daily|MJ/m2|mowx:SRAD|
 70|5|Daily Solar Radiation|sum|daily|daily|langley|scan:LRADT|
 70|6|Daily Solar Radiation|sum|daily|daily|langley|tscan:LRADT|
+70|7|Daily Solar Radiation estimate|sum|daily|daily|langley|solar:rad|
 71|1|Avg Relative Humidity|ave|daily|daily|percent|awdn|
 71|2|Avg Relative Humidity|ave|daily|daily|percent|cli:AVRH|
 71|3|Avg Relative Humidity|ave|daily|daily|percent|cf6:AVRH|
@@ -536,6 +537,7 @@
 132|10|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|nysm:srad_hr|
 132|11|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|nwon:rad_hr|
 132|12|Hourly Solar radiation from 5min|sum|hrly|hrly|joule/m2|winet:rad_hr|
+132|13|Hourly Solar estimate|sum|hrly|hrly|langley|solar:rad_hr|
 133|1|Hourly Ave. Vapor Pressure|avg|hrly|hrly|Pa|culog:VAPORPRES_H|
 134|1|Hourly Evaporation Pan Depth|inst|inst|hrly|inch|culog:EVAP_DEPTH_H|
 135|1|Hourly Ave. Ozone Concentration|avg|hrly|hrly|inch|culog:OZAVG_H|

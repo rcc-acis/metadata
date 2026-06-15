@@ -86,7 +86,7 @@
 4|24|Precipitation|sum|daily|daily|inch|coag:PRCP|
 5|0|Hourly precipitation|sum|hrly|hrly|inch|pcpn_hr|
 5|1|Hourly precipitation|sum|hrly|hrly|inch|metar:PRCP|
-5|2|Hourly precipitation|sum|hrly|hrly|mm|ghcnh:prec_hr|
+5|2|Hourly precipitation|sum|hrly|hrly|mm|ghcnh:pr_hr|
 5|5|Hourly precipitation|sum|hrly|hrly|inch|shef:PPH|
 5|6|Hourly precipitation|sum|hrly|hrly|inch|newa:prec|
 5|7|Hourly precipitation|sum|hrly|hrly|inch|culog:PRCP_H|
@@ -283,12 +283,14 @@
 31|2|Cloud Height|inst|inst|hrly|m|ghcnh:cld_hgt|
 32|0|Cloud Type|inst|inst|hrly|||
 32|1|Cloud Type|inst|inst|hrly||metar:CLD_COND|
-33|0|Total sky cover|inst|inst|hrly|fraction||
+33|0|Total sky cover|inst|inst|hrly|percent|tskc|
 33|1|Total sky cover|inst|inst|hrly|fraction|metar:TSKC|
+33|2|Total sky cover|inst|inst|hrly|percent|ghcnh:tskc|
 34|0|Total opaque sky cover|inst|inst|hrly|fraction||
 34|1|Total opaque sky cover|inst|inst|hrly|fraction|metar:TSKC_OPAQ|
-35|0|Ceiling height|inst|inst|hrly|feet||
+35|0|Ceiling height|inst|inst|hrly|feet|ceiling|
 35|1|Ceiling height|inst|inst|hrly|feet|metar:CEIL_HGT|
+35|2|Ceiling height|inst|inst|hrly|metar|ghcnh:ceil_hgt|
 36|0|3-hour precipitation|sum|3 hr|3 hrly|inch|pcpn_3hr|
 36|1|3-hour precipitation|sum|3 hr|3 hrly|inch|metar:PRCP_3HR|
 36|2|3-hour precipitation|sum|3 hr|3 hrly|mm|ghcnh:prec_3hr|
@@ -325,10 +327,11 @@
 48|2|15-hour precipitation|sum|15 hr|15 hrly|mm|ghcnh:prec_15hr|
 49|2|18-hour precipitation|sum|18 hr|18 hrly|mm|ghcnh:prec_18hr|
 50|2|21-hour precipitation|sum|21 hr|21 hrly|mm|ghcnh:prec_21hr|
-52|0|Precipitation|sum|15min|15min|inch||
+52|0|Precipitation|sum|15min|15min|inch|pcpn_15min|
 52|1|Precipitation|sum|15min|15min|inch|culog:PRCP_15MIN|
 52|2|Precipitation|sum|15min|15min|inch|newa:prec_15min|
 52|3|Precipitation|sum|15min|15min|cm|oardc:prec_15min|
+52|4|Precipitation|sum|15min|15min|mm|ghcnh:pr_15min|
 53|0|Avg wind speed|ave|15min|15min|mph||
 53|1|Avg wind speed|ave|15min|15min|mph|culog:WSPD_15MIN|
 53|2|Avg wind speed|ave|15min|15min|mph|newa:wspd_15min|
@@ -649,6 +652,7 @@
 169|2|Wind Gust Speed|inst|5min|5min|miles/hour|nysm:wmax_5min|
 169|3|Wind Gust Speed|inst|5min|5min|m/sec|nwon:wspd_gust_5min|
 169|4|Wind Gust Speed|inst|5min|5min|m/sec|mesm:wmax_5min|
+170|0|Precipitation|sum|5min|5min|inch|pcpn_5min|
 170|1|Precipitation|sum|5min|5min|mm|deos:prec_5min|
 170|2|Precipitation|sum|5min|5min|cm|oardc:prec_5min|
 170|3|Precipitation|sum|5min|5min|mm|nysm:precip_5min|
@@ -656,6 +660,7 @@
 170|5|Precipitation|sum|5min|5min|inch|winet:prec_5min|
 170|6|Precipitation|sum|5min|5min|mm|mesm:precip_5min|
 170|7|Precipitation|sum|5min|5min|inch|ncnet:prec_5min|
+170|8|Precipitation|sum|5min|5min|mm|ghcnh:pr_5min|
 171|1|Relative Humidity|inst|5min|5min|percent|deos:RH_5min|
 171|2|Relative Humidity|inst|5min|5min|percent|oardc:RH_5min|
 171|3|Relative Humidity|inst|5min|5min|percent|nysm:relh_5min|
